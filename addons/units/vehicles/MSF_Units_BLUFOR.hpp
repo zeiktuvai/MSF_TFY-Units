@@ -1,5 +1,6 @@
 #include "blufor\MSF_Soldier_Base.hpp"
 #include "blufor\MSF_Sniper_Base.hpp"
+#include "blufor\w\MSF_w_Soldier_Base.hpp"
 
 #include "blufor\mc\MSF_mc_Backpack.hpp"
 #include "blufor\mc\MSF_mc_Crewman.hpp"

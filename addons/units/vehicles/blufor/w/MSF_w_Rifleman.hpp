@@ -1,6 +1,9 @@
-class MSF_Rifleman_W :  MSF_Rifleman
+class MSF_Rifleman_W :  MSF_w_Soldier_Base
 {
-	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	displayName = "Rifleman";
+	role = "MSFAssault";	
+	scope = 2;
+	scopeCurator = 2;	
 	weapons[] = {
         "MSF_MXSW_W", "Binocular", "rhs_weap_M320", "Throw", "Put"
     };
@@ -31,6 +34,6 @@ class MSF_Rifleman_W :  MSF_Rifleman
         "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_PMAGSupplyBackpack";
 };
