@@ -1,6 +1,7 @@
 #include "MSF_Roles.hpp"
 #include "MSF_Faction.hpp"
 #include "MSF_Categories.hpp"
+#include "MSF_Glasses.hpp"
 
 class CfgPatches
 {

@@ -1,7 +1,14 @@
-class NATO_WINTER_KITBAG;
-class MSF_w_BaseBackpack : NATO_WINTER_KITBAG
+class B_Kitbag_rgr;
+class MSF_Alpine_Backpack : B_Kitbag_rgr
 {
-	displayName = "Standard Kitbag (Snow)";
+	scope = 2;
+    displayName = "Kitbag (Alpine)";
+    picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+    hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\backpack_fast_alpine.paa"};
+};
+class MSF_w_BaseBackpack : MSF_Alpine_Backpack
+{
+	displayName = "Standard Kitbag (Alpine)";
 	scope = 2;	
 	class TransportItems {
 		class _xx_quickclot {
@@ -99,7 +106,7 @@ class MSF_w_BaseBackpack : NATO_WINTER_KITBAG
 
 class MSF_w_PMAGBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Infantry Kitbag (Snow)";
+	displayName = "Infantry Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_30rnd_tan_pmag {
 			magazine = "30Rnd_65x39_caseless_black_mag_Tracer";
@@ -110,7 +117,7 @@ class MSF_w_PMAGBackpack : MSF_w_BaseBackpack
 
 class MSF_w_PMAGSupplyBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Ammo Bearer Kitbag (Snow)";
+	displayName = "Ammo Bearer Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_30rnd_pmag {
 			magazine = "30Rnd_65x39_caseless_black_mag_Tracer";
@@ -121,7 +128,7 @@ class MSF_w_PMAGSupplyBackpack : MSF_w_BaseBackpack
 
 class MSF_w_SniperBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Sniper Kitbag (Snow)";
+	displayName = "Sniper Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_10rnd_50 {
 			magazine = "rhsusf_mag_10Rnd_STD_50BMG_mk211";
@@ -132,7 +139,7 @@ class MSF_w_SniperBackpack : MSF_w_BaseBackpack
 
 class MSF_w_ATBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Anti-Tank Kitbag (Snow)";
+	displayName = "Anti-Tank Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_maaws_het {
 			magazine = "rhs_mag_maaws_HEAT";
@@ -147,7 +154,7 @@ class MSF_w_ATBackpack : MSF_w_BaseBackpack
 
 class MSF_w_AABackpack : MSF_w_BaseBackpack
 {
-	displayName = "Anti-Air Kitbag (Snow)";
+	displayName = "Anti-Air Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_titan_aa {
 			magazine = "Titan_AA";
@@ -158,7 +165,7 @@ class MSF_w_AABackpack : MSF_w_BaseBackpack
 
 class MSF_w_SAWBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Support Kitbag (Snow)";
+	displayName = "Support Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_130_338 {
 			magazine = "130Rnd_338_Mag";
@@ -169,7 +176,7 @@ class MSF_w_SAWBackpack : MSF_w_BaseBackpack
 
 class MSF_w_MedicBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Medic Kitbag (Snow)";
+	displayName = "Medic Kitbag (Alpine)";
 	class TransportItems {
 		class _xx_quickclot {
 			name = "ACE_quikclot";
@@ -244,7 +251,7 @@ class MSF_w_MedicBackpack : MSF_w_BaseBackpack
 
 class MSF_w_EngBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Engineer Kitbag (Snow)";
+	displayName = "Engineer Kitbag (Alpine)";
 	class TransportItems {
 		class _xx_wirecut {
 			name = "ACE_wirecutter";
@@ -295,7 +302,7 @@ class MSF_w_EngBackpack : MSF_w_BaseBackpack
 
 class MSF_w_MineBackpack : MSF_w_BaseBackpack
 {
-	displayName = "Mine Spec. Kitbag (Snow)";
+	displayName = "Mine Spec. Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_persmine {
 			magazine = "APERSMine_Range_Mag";

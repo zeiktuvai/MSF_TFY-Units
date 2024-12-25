@@ -20,7 +20,7 @@ class ARC_Uniform : Uniform_Base
 class MSF_NATO_Uniform_Alpine : Uniform_Base
 {
     scope = 2;
-    displayName = "NATO Alpine Uniform";
+    displayName = "Alpine Uniform";
     picture = "\z\msf\addons\units\data\ui\icon\MSF_NATO_Alpine_Uniform.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; 
     class ItemInfo : UniformItem { 

@@ -1,4 +1,3 @@
-class B_Kitbag_rgr;
 class MSF_O_ARC_Backpack : B_Kitbag_rgr
 {
     scope = 2;
