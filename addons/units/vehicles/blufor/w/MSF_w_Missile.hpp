@@ -33,7 +33,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
         "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_ATBackpack";
 };
 
@@ -72,6 +72,6 @@ class MSF_AARifleman_W :  MSF_AARifleman
         "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_AABackpack";
 };

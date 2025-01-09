@@ -1,6 +1,14 @@
-class MSF_Engineer_W :  MSF_Engineer
+class MSF_Engineer_W :  MSF_w_Soldier_Base
 {
+	displayName = "Engineer";
+	role = "MSFSupport";	
+	scope = 2;
+	scopeCurator = 2;
+	canDeactivateMines = 1;
+	engineer = 1;
+	icon = "iconManEngineer";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
 	weapons[] = {
         "MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
     };
@@ -33,6 +41,6 @@ class MSF_Engineer_W :  MSF_Engineer
 	respawnLinkedItems[] = {
         "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETLIGHT", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM_RECON";
+    uniformClass = "MSF_NATO_Uniform_Alpine_Recon";
     backpack = "MSF_w_EngBackpack";
 };

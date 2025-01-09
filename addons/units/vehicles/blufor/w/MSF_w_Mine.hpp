@@ -27,6 +27,6 @@ class MSF_Mine_W :  MSF_Mine
 	respawnLinkedItems[] = {
         "V_EOD_blue_F", "rhs_altyn_visordown", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_MineBackpack";
 };

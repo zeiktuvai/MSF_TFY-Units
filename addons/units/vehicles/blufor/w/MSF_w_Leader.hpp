@@ -35,6 +35,6 @@ class MSF_Leader_W :  MSF_Leader
         "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
         "ItemGPS", "JAS_GPNVG18_Tan_TI"		
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_PMAGSupplyBackpack";
 };

@@ -42,6 +42,6 @@ class MSF_UAV_W :  MSF_UAV
         "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "NATO_WINTER_BACKPACK_UAV";
 };

@@ -33,6 +33,6 @@ class MSF_Medic_W :  MSF_Medic
         "NATO_WINTER_V_TACVEST", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
         "B_UavTerminal", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_MedicBackpack";
 };
