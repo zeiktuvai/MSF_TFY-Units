@@ -14,7 +14,7 @@ class MSF_Crewman_W :  MSF_Crewman
 		"ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "NATO_WINTER_BALACLAVA_STEALTH", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
+        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
 		"ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -30,7 +30,7 @@ class MSF_Crewman_W :  MSF_Crewman
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "NATO_WINTER_BALACLAVA_STEALTH", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
+        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
 		"ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
