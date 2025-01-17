@@ -11,7 +11,7 @@ class MSF_Gunner_W :  MSF_Gunner
 		"ACE_Banana", "ACE_WaterBottle"        
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", 
+        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -24,9 +24,9 @@ class MSF_Gunner_W :  MSF_Gunner
 		"ACE_Banana", "ACE_WaterBottle" 
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass",
+        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"	
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_SAWBackpack";
 };

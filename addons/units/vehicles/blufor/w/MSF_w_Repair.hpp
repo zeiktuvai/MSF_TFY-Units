@@ -14,7 +14,7 @@ class MSF_Repair_W :  MSF_Repair
 		"ACE_Banana", "ACE_Flashlight_XL50"
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "NATO_WINTER_BALACLAVA_WHITE_CAMO", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
     };	
 	respawnWeapons[] = {
 		"MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
@@ -29,7 +29,7 @@ class MSF_Repair_W :  MSF_Repair
 		"ACE_Banana", "ACE_Flashlight_XL50"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "NATO_WINTER_BALACLAVA_WHITE_CAMO", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
 	};
     uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
     backpack = "MSF_w_PMAGBackpack";

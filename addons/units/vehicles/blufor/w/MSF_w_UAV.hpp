@@ -19,7 +19,7 @@ class MSF_UAV_W :  MSF_UAV
         "ACE_microDAGR", "ACE_Banana"  
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
+        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -39,9 +39,9 @@ class MSF_UAV_W :  MSF_UAV
         "ACE_microDAGR", "ACE_Banana"  
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
+        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_UNIFORM";
+    uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "NATO_WINTER_BACKPACK_UAV";
 };

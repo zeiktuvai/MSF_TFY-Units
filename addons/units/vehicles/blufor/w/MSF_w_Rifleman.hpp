@@ -16,7 +16,7 @@ class MSF_Rifleman_W :  MSF_w_Soldier_Base
 		"1Rnd_Smoke_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
     };
     linkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", 
+        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -31,7 +31,7 @@ class MSF_Rifleman_W :  MSF_w_Soldier_Base
 		"1Rnd_Smoke_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_BALACLAVA_STEALTH_G", "ItemMap", "ItemRadio", "ItemCompass", 
+        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
