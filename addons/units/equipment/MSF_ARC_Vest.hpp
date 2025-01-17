@@ -3,7 +3,7 @@ class ARC_Vest : Vest_Camo_Base
     scope = 2; 
     displayName = "ARC Carrier"; 
     //picture = "-"; 
-    model = "A3\Characters_F\BLUFOR\equip_b_Vest01"; 
+    model = "A3\Characters_F\BLUFOR\equip_b_Vest01.p3d"; 
     hiddenSelections[] = {"Camo"}; 
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Vest.paa"}; 
     class ItemInfo: VestItem 
@@ -21,7 +21,7 @@ class ARC_Vest_Lite : Vest_Camo_Base
     scope = 2; 
     displayName = "ARC Carrier Lite"; 
     //picture = "-"; 
-    model = "A3\Characters_F\BLUFOR\equip_b_Vest02"; 
+    model = "A3\Characters_F\BLUFOR\equip_b_Vest02.p3d"; 
     hiddenSelections[] = {"Camo"}; 
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Vest.paa"}; 
     class ItemInfo: VestItem 

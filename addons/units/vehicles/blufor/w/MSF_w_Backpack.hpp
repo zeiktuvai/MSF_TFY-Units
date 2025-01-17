@@ -3,7 +3,7 @@ class MSF_Alpine_Backpack : B_Kitbag_rgr
 {
 	scope = 2;
     displayName = "Kitbag (Alpine)";
-    picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+    picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr.paa";
     hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\backpack_fast_alpine.paa"};
 };
 class MSF_w_BaseBackpack : MSF_Alpine_Backpack

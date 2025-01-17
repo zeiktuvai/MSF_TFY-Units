@@ -2,7 +2,7 @@ class MSF_O_ARC_Backpack : B_Kitbag_rgr
 {
     scope = 2;
     displayName = "Kitbag (ARC)";
-    picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+    picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr.paa";
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Backpack.paa"};
 
     class TransportItems {
