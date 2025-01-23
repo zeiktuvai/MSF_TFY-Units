@@ -47,7 +47,7 @@ class CfgWeapons
 {
     class ItemCore;
     #include "MSF_Weapons.hpp"
-    #include "MSF_Equipment.hpp"
+    #include "cfg\MSF_Equipment.hpp"
 };
 
 class UniformSlotInfo 

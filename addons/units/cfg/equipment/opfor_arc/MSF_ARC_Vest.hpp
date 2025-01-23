@@ -1,7 +1,7 @@
-class ARC_Vest : Vest_Camo_Base 
+class ARC_Vest : V_PlateCarrier2_rgr 
 { 
     scope = 2; 
-    displayName = "ARC Carrier"; 
+    displayName = "Carrier Rig (ARC)"; 
     //picture = "-"; 
     model = "A3\Characters_F\BLUFOR\equip_b_Vest01.p3d"; 
     hiddenSelections[] = {"Camo"}; 
@@ -16,10 +16,10 @@ class ARC_Vest : Vest_Camo_Base
         hiddenSelections[] = {"camo"}; 
     }; 
 };
-class ARC_Vest_Lite : Vest_Camo_Base 
+class ARC_Vest_Lite : V_PlateCarrier1_blk 
 { 
     scope = 2; 
-    displayName = "ARC Carrier Lite"; 
+    displayName = "Carrier Lite (ARC)"; 
     //picture = "-"; 
     model = "A3\Characters_F\BLUFOR\equip_b_Vest02.p3d"; 
     hiddenSelections[] = {"Camo"}; 
