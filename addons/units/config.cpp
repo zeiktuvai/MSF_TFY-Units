@@ -3,6 +3,7 @@
 #include "cfg\MSF_Categories.hpp"
 #include "cfg\MSF_Glasses.hpp"
 #include "cfg\MSF_Groups.hpp"
+#include "cfg\MSF_Functions.hpp"
 
 class CfgPatches
 {
