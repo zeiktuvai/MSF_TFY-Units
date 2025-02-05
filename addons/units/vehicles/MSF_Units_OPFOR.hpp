@@ -8,3 +8,6 @@
 #include "opfor\arc\MSF_O_ARC_Grenadier.hpp"
 #include "opfor\arc\MSF_O_ARC_Marksman.hpp"
 #include "opfor\arc\MSF_O_ARC_Medic.hpp"
+#include "opfor\arc\MSF_O_ARC_Leader.hpp"
+#include "opfor\arc\MSF_O_ARC_Missile.hpp"
+#include "opfor\arc\MSF_O_ARC_Engineer.hpp"

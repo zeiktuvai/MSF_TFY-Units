@@ -27,7 +27,7 @@ class CfgPatches
             "MSF_UAV_W", "MSF_w_BaseBackpack", "MSF_w_PMAGBackpack", "MSF_w_PMAGSupplyBackpack", "MSF_w_SniperBackpack",
             "MSF_w_ATBackpack", "MSF_w_AABackpack", "MSF_w_SAWBackpack", "MSF_w_MedicBackpack", "MSF_w_EngBackpack", "MSF_w_MineBackpack",
             "MSF_O_ARC_Rifleman", "MSF_O_ARC_Marksman", "MSF_O_ARC_Grenadier", "MSF_O_ARC_Autorifleman", "MSF_O_ARC_Medic",
-            "MSF_O_ARC_Backpack", "MSF_O_ARC_MedicBackpack", "MSF_O_ARC_DAGOR_Green"
+            "MSF_O_ARC_ATRifleman", "MSF_O_ARC_Leader", "MSF_O_ARC_Backpack", "MSF_O_ARC_MedicBackpack", "MSF_O_ARC_DAGOR_Green"
         };
         weapons[] = {
             "MSF_rhs_m14ebr", "MSF_rhs_hk416_m320", "MSF_rhs_m249", "MSF_rhs_hk416d", "MSF_rhs_hk416d10", "MSF_rhs_M107", "MSF_rhs_M107b",
@@ -38,6 +38,11 @@ class CfgPatches
         requiredAddons[] = { "MSF3den", "NATO_Winter_Units", "rhsusf_c_troops", "rhsusf_sounds", "rhsusf_c_weapons" };
     };
 };
+
+#define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; };
+#define ITEM_XX(a,b) class _xx_##a { name = a; count = b; };
+#define MAG_ADD(a,b) class _add_##a { magazine = a; count = b; };
+
 
 class CfgVehicles {
     #include "vehicles\MSF_Units_BLUFOR.hpp"
