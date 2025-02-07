@@ -12,7 +12,7 @@ class MSF_O_ARC_Soldier_Base : O_soldier_F
 	genericNames = "TakistaniMen";
 	model = "\A3\characters_f_beta\INDEP\ia_soldier_01.p3d"; 
 	hiddenSelections[] = {"Camo","Insignia"}; 
-	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_clothing.paa"};  
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_clothing.paa"};
 	weapons[] = {
         "MSF_ARC_SPAR", "Binocular", "Throw", "Put"
     };
@@ -27,7 +27,7 @@ class MSF_O_ARC_Soldier_Base : O_soldier_F
 		"ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_splint", "ACE_tourniquet", "ACE_morphine", "ACE_bloodIV_500", "ACE_epinephrine"
 	};
 	linkedItems[] = {
-		"ARC_Vest", "ARC_Helmet", "rhs_googles_orange", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+		"ARC_Vest", "ARC_Helmet", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
 	};
 	respawnWeapons[] = {
 		"MSF_ARC_SPAR", "Binocular", "Throw", "Put"
@@ -43,7 +43,7 @@ class MSF_O_ARC_Soldier_Base : O_soldier_F
 		"ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_splint", "ACE_tourniquet", "ACE_morphine", "ACE_bloodIV_500", "ACE_epinephrine"
 	};
 	respawnLinkedItems[] = {
-		"ARC_Vest", "ARC_Helmet", "rhs_googles_orange", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+		"ARC_Vest", "ARC_Helmet", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
 	};
 	uniformClass = "MSF_O_ARC_Uniform";
 	backpack = "MSF_O_ARC_Backpack";

@@ -1,0 +1,20 @@
+    class MSF_O_ARC_Crewman : MSF_O_ARC_Soldier_Base
+    {
+        author = "Zeik_Tuvai";         
+        displayName = "Crewman"; 
+        scope = 2;
+        scopeCurator = 2;
+        engineer = 1;
+       	role = "MSFCrew";	
+	    icon = "iconManEngineer";                
+        editorPreview = "z\msf\addons\units\data\ui\MSF_O_ARC_Soldier_F.jpg";
+        model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
+        hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Tank_crew.paa"};
+        uniformClass = "MSF_O_ARC_Tank_Crew";
+        linkedItems[] = {
+		    "V_TacVest_oli", "H_HelmetCrew_I", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+	    };
+        respawnLinkedItems[] = {
+		    "V_TacVest_oli", "H_HelmetCrew_I", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+	    };
+    };

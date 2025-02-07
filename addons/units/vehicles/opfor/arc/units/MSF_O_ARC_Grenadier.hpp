@@ -17,7 +17,7 @@ class MSF_O_ARC_Grenadier : MSF_O_ARC_Soldier_Base
         "1Rnd_HE_Grenade_shell"
 	};
 	linkedItems[] = {
-		"ARC_Vest", "ARC_Helmet", "rhs_googles_orange", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+		"ARC_Vest", "ARC_Helmet", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
 	};
 	respawnWeapons[] = {
 		"MSF_ARC_SPAR_GL", "Binocular", "Throw", "Put"
@@ -30,6 +30,6 @@ class MSF_O_ARC_Grenadier : MSF_O_ARC_Soldier_Base
         "1Rnd_HE_Grenade_shell"
 	};
 	respawnLinkedItems[] = {
-		"ARC_Vest", "ARC_Helmet", "rhs_googles_orange", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
+		"ARC_Vest", "ARC_Helmet", "G_Tactical_Clear", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
 	};    
 };

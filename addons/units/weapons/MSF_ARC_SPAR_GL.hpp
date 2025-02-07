@@ -10,7 +10,7 @@ class MSF_ARC_SPAR_GL : arifle_SPAR_01_GL_khk_F
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15A";
+			item = "ACE_DBAL_A3_Green";
 		};
 	};
 };

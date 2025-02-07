@@ -10,7 +10,7 @@ class MSF_MXM_W : arifle_MXM_Winter_F
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15side_bk";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";

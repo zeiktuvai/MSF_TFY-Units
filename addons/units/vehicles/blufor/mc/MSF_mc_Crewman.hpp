@@ -5,6 +5,7 @@ class MSF_Crewman :  MSF_Soldier_Base
 	editorSubcategory = "MSF_EdSubcat_Inf";
 	icon = "iconManEngineer";
 	scope = 2;
+	engineer = 1;
 	scopeCurator = 2;
 	weapons[] = {
         "MSF_rhs_SCARH", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
