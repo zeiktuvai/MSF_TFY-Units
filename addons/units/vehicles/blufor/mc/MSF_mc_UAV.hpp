@@ -6,12 +6,12 @@ class MSF_UAV :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_rhs_SCARH", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+        "MSF_MX", "Binocular", "Throw", "Put"
     };
     magazines[] = {
- 		"acex_intelitems_notepad", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "HandGrenade", "HandGrenade", 
-        "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", 
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "SmokeShellGreen", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_rsp30_red"
+ 		"acex_intelitems_notepad",  "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple",  "SmokeShellGreen"
     };
     items[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 
@@ -21,16 +21,16 @@ class MSF_UAV :  MSF_Soldier_Base
         "ACE_microDAGR", "ACE_Banana"  
     };
     linkedItems[] = {
-        "rhsusf_plateframe_teamleader", "rhsusf_opscore_ut_pelt_nsw", "rhs_googles_clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
+        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_SCARH", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+		"MSF_MX", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
- 		"acex_intelitems_notepad", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "HandGrenade", "HandGrenade", 
-        "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", 
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "SmokeShellGreen", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_rsp30_red"
+ 		"acex_intelitems_notepad",  "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple",  "SmokeShellGreen"
 	};
 	RespawnItems[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 
@@ -40,9 +40,9 @@ class MSF_UAV :  MSF_Soldier_Base
         "ACE_microDAGR", "ACE_Banana"  
 	};
 	respawnLinkedItems[] = {
-        "rhsusf_plateframe_teamleader", "rhsusf_opscore_ut_pelt_nsw", "rhs_googles_clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
+        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk"
 	};
-    uniformClass = "rhs_uniform_g3_mc";
+    uniformClass = "U_B_CombatUniform_mcam";
     backpack = "B_UAV_01_backpack_F";
 };

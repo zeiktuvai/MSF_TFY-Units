@@ -7,6 +7,6 @@ class MSF_Marksman_N : MSF_Marksman
 	respawnLinkedItems[] = {
 		"V_PlateCarrier2_blk", "H_HelmetB_black", "G_Balaclava_TI_tna_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk"			
 	};
-	uniformClass = "rhs_uniform_g3_blk";
+	uniformClass = "U_B_CombatUniform_mcam";
 	backpack = "MSF_blk_MarksmanBackpack";
 };

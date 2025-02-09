@@ -10,14 +10,14 @@ class MSF_Engineer_W :  MSF_w_Soldier_Base
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+        "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     magazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-		"9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "rhsusf_mag_7x45acp_MHP"
+		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
     };
     items[] = {
 		"ACE_Banana"
@@ -26,14 +26,14 @@ class MSF_Engineer_W :  MSF_w_Soldier_Base
         "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_HELMETLIGHT", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+		"MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "rhsusf_mag_7x45acp_MHP"
+        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
+		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
 	};
 	RespawnItems[] = {
 		"ACE_Banana"

@@ -8,35 +8,35 @@ class MSF_Repair :  MSF_Soldier_Base
 	engineer = 1;
 	icon = "iconManEngineer";
 	weapons[] = {
-        "MSF_rhs_SCARH", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+        "MSF_MX", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     magazines[] = {
-        "acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "9Rnd_45ACP_Mag",
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",        
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer", 
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", 
+		"30Rnd_9x21_Mag"
     };
     items[] = {
 		"ACE_Banana", "ACE_Flashlight_XL50", "ToolKit"
     };
     linkedItems[] = {
-        "rhsusf_iotv_ocp_Repair", "rhs_Booniehat_ocp", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_SCARH", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+		"MSF_MX", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "9Rnd_45ACP_Mag",
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",        
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer", 
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", 
+		"30Rnd_9x21_Mag"
 	};
 	RespawnItems[] = {
 		"ACE_Banana", "ACE_Flashlight_XL50", "ToolKit"
 	};
 	respawnLinkedItems[] = {
-        "rhsusf_iotv_ocp_Repair", "rhs_Booniehat_ocp", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
 	};
-    uniformClass = "rhs_uniform_g3_tan";
+    uniformClass = "U_B_CombatUniform_mcam_vest";
     backpack = "MSF_mc_PMAGBackpack";
 };

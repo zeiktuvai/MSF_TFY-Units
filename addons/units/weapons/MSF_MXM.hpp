@@ -1,8 +1,8 @@
-class rhs_weap_m14ebrri;
-class MSF_rhs_weap_m14ebrri : rhs_weap_m14ebrri
+class arifle_MXM_F;
+class MSF_MXM : arifle_MXM_F
 {
 	scope = 1;
-	displayName = "MSF EBR-RI";
+	displayName = "MSF MXM";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
@@ -10,11 +10,11 @@ class MSF_rhs_weap_m14ebrri : rhs_weap_m14ebrri
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15side_bk";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsUnder {
 			slot = "UnderBarrelSlot";
-			item = "rhsusf_acc_harris_bipod";
+			item = "bipod_01_F_snd";
 		};
 	};
 };

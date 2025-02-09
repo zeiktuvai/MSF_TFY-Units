@@ -1,20 +1,20 @@
-class rhs_weap_hk416d145;
-class MSF_rhs_hk416d : rhs_weap_hk416d145
+class LMG_03_F;
+class MSF_M249 : LMG_03_F
 {
 	scope = 1;
-	displayName = "MSF HK416";
+	displayName = "MSF M249";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "rhsusf_acc_su230";
+			item = "ACE_optic_Hamr_2D";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15_bk";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";
-			item = "rhsusf_acc_SFMB556";
+			item = "ACE_muzzle_mzls_B";
 		};
 	};
 };

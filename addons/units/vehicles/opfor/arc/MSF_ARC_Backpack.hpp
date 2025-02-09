@@ -44,8 +44,8 @@ class MSF_O_ARC_ATBackpack : MSF_O_ARC_Backpack
 	displayName = "Kitbag AT (ARC)";
 	class TransportMagazines {
 		#include "..\..\base\Base_BackPack_Grenades.hpp"
-		class _xx_maaws_het { magazine = "rhs_mag_maaws_HEAT"; count = 2; };
-		class _xx_maaws_hedp { magazine = "rhs_mag_maaws_HEDP"; count = 1; };
+		class _xx_maaws_het { magazine = "MRAWS_HEAT_F"; count = 2; };
+		class _xx_maaws_hedp { magazine = "MRAWS_HEAT55_F"; count = 1; };
 	};
 };
 

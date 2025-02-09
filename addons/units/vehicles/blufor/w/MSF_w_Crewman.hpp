@@ -2,13 +2,12 @@ class MSF_Crewman_W :  MSF_Crewman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+        "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     magazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "30Rnd_65x39_caseless_black_mag_Tracer", "rhsusf_mag_7x45acp_MHP"
+        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
+		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag",
     };
     items[] = {
 		"ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
@@ -18,13 +17,12 @@ class MSF_Crewman_W :  MSF_Crewman
 		"ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+		"MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "30Rnd_65x39_caseless_black_mag_Tracer", "rhsusf_mag_7x45acp_MHP"
+        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
+		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
 	};
 	RespawnItems[] = {
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"

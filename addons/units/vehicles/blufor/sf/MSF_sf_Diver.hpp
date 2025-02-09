@@ -10,9 +10,9 @@ class MSF_SF_Diver :  MSF_Soldier_Base
     };
     magazines[] = {
         "acex_intelitems_notepad", "Chemlight_green", "Chemlight_green", "Chemlight_green",
-		"20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", 
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"
+		"20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag",
+		"30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red",
+		"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"
     };
     items[] = {
 		"ACE_Banana", "muzzle_snds_L"
@@ -21,13 +21,13 @@ class MSF_SF_Diver :  MSF_Soldier_Base
         "V_RebreatherB", "G_B_Diving", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"arifle_SDAR_F", "Binocular", "rhs_weap_M320", "Throw", "Put"
+		"arifle_SDAR_F", "Binocular", "hgun_P07_snds_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "Chemlight_green", "Chemlight_green", "Chemlight_green",
-		"20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", 
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"
+		"20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag", "20Rnd_556x45_UW_mag",
+		"30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red",
+		"16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag"
 	};
 	RespawnItems[] = {
 		"ACE_Banana", "muzzle_snds_L"

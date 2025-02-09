@@ -34,19 +34,14 @@ class CfgPatches
             "MSF_O_ARC_MBT_03", "MSF_O_ARC_MBT_04", "MSF_O_ARC_Heli_1", "MSF_O_ARC_Heli_2", "MSF_O_ARC_Heli_3", "MSF_O_ARC_Heli_4"
         };
         weapons[] = {
-            "MSF_rhs_m14ebr", "MSF_rhs_hk416_m320", "MSF_rhs_m249", "MSF_rhs_hk416d", "MSF_rhs_hk416d10", "MSF_rhs_M107", "MSF_rhs_M107b",
-            "MSF_MXSW_W", "MSF_MXGL_White", "MSF_MMG_W", "MSF_MXM_W", "MSF_MXC_W", "MSF_rhs_SCARH", "MSF_SPAR_GL", "MSF_rhs_m240B",
-            "MSF_rhs_SCARH_STD", "MSF_ARC_SPAR", "MSF_ARC_SPAR_MG", "MSF_ARC_SPAR_GL", "MSF_ARC_DMR", "MSF_NATO_Uniform_Alpine"
+            "MSF_MXM", "MSF_M249", "MSF_MAR10",
+            "MSF_MXSW_W", "MSF_MXGL_White", "MSF_MMG_W", "MSF_MXM_W", "MSF_MXC_W", "MSF_MX", "MSF_MXC",
+            "MSF_MX_3GL", "MSF_ARC_SPAR", "MSF_ARC_SPAR_MG", "MSF_ARC_SPAR_GL", "MSF_ARC_DMR", "MSF_NATO_Uniform_Alpine"
         };
         requiredVersion = 2.0;
-        requiredAddons[] = { "MSF3den", "NATO_Winter_Units", "rhsusf_c_troops", "rhsusf_sounds", "rhsusf_c_weapons" };
+        requiredAddons[] = { "MSF3den", "NATO_Winter_Units"};
     };
 };
-
-#define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; };
-#define ITEM_XX(a,b) class _xx_##a { name = a; count = b; };
-#define MAG_ADD(a,b) class _add_##a { magazine = a; count = b; };
-
 
 class CfgVehicles {
     #include "vehicles\MSF_Units_BLUFOR.hpp"

@@ -12,7 +12,7 @@ class MSF_Mine_W :  MSF_Mine
 		"ACE_DefusalKit", "MineDetector", "ACE_Banana" 
     };
     linkedItems[] = {
-        "V_EOD_blue_F", "rhs_altyn_visordown", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
+        "V_EOD_blue_F", "H_HelmetHBK_chops_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
 		"MSF_MXSW_W", "Binocular", "Throw", "Put"
@@ -25,7 +25,7 @@ class MSF_Mine_W :  MSF_Mine
 		"ACE_DefusalKit", "MineDetector", "ACE_Banana"
 	};
 	respawnLinkedItems[] = {
-        "V_EOD_blue_F", "rhs_altyn_visordown", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
+        "V_EOD_blue_F", "H_HelmetHBK_chops_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_MineBackpack";

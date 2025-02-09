@@ -1,20 +1,20 @@
-class arifle_SPAR_01_GL_blk_F;
-class MSF_SPAR_GL : arifle_SPAR_01_GL_blk_F
+class srifle_DMR_02_sniper_F;
+class MSF_MAR10 : srifle_DMR_02_sniper_F
 {
 	scope = 1;
-	displayName = "MSF HK416A5 GL";
+	displayName = "MSF MAR-10";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "rhsusf_acc_ACOG_MDO";
+			item = "optic_KHS_tan";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15A";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";
-			item = "rhsusf_acc_SF3P556";
+			item = "muzzle_snds_338_sand";
 		};
 	};
 };

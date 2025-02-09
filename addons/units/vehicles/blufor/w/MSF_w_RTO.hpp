@@ -2,7 +2,7 @@ class MSF_RTO_W :  MSF_RTO
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhs_weap_M320", "Throw", "Put"
+        "MSF_MXSW_W", "Binocular", "Throw", "Put"
     };
     magazines[] = {
 		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
@@ -14,7 +14,7 @@ class MSF_RTO_W :  MSF_RTO
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhs_weap_M320", "Throw", "Put"
+		"MSF_MXSW_W", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
 		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",

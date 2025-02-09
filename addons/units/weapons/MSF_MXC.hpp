@@ -1,20 +1,20 @@
-class rhs_weap_m240B;
-class MSF_rhs_m240B : rhs_weap_m240B
+class arifle_MXC_F;
+class MSF_MXC : arifle_MXC_F
 {
 	scope = 1;
-	displayName = "MSF M240B";
+	displayName = "MSF MXC";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "rhsusf_acc_ELCAN_ard";
+			item = "ACE_optic_Hamr_2D";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15A";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";
-			item = "rhsusf_acc_ARDEC_M240";
+			item = "ACE_muzzle_mzls_H";
 		};
 	};
 };

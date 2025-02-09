@@ -6,35 +6,35 @@ class MSF_Marksman : MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-		"MSF_rhs_weap_m14ebrri","Rangefinder","rhsusf_weap_glock17g4", "Throw", "Put"
+		"MSF_MXM","Rangefinder","hgun_Pistol_heavy_01_F", "Throw", "Put"
 	};
 	magazines[] = {
-		"acex_intelitems_notepad", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag",
-		"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ",
-		"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_mag_17Rnd_9x19_JHP"
+		"acex_intelitems_notepad", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag",
+		"ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag",
+		"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag"
 	};
 	items[] = {
 		"ACE_Banana", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", 
 		"ACE_elasticBandage", "ACE_epinephrine", "ACE_morphine", "ACE_adenosine"
 	};
 	linkedItems[] = {
-		"rhsusf_spcs_ocp_sniper", "H_HelmetB_camo", "rhsusf_shemagh2_tan", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+		"V_PlateCarrier2_rgr", "H_HelmetB_camo", "G_Bandanna_khk", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
 	};
 	respawnWeapons[] = {
-		"MSF_rhs_weap_m14ebrri","Rangefinder","rhsusf_weap_glock17g4", "Throw", "Put"
+		"MSF_MXM","Rangefinder","hgun_Pistol_heavy_01_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-		"acex_intelitems_notepad", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag",
-		"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ", "rhsusf_mag_17Rnd_9x19_FMJ",
-		"rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_mag_17Rnd_9x19_JHP"	
+		"acex_intelitems_notepad", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag",
+		"ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag", "ACE_30Rnd_65_Creedmor_mag",
+		"11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag"
 	};
 	RespawnItems[] = {
 		"ACE_Banana", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", 
 		"ACE_elasticBandage", "ACE_epinephrine", "ACE_morphine", "ACE_adenosine"
 	};
 	respawnLinkedItems[] = {
-		"rhsusf_spcs_ocp_sniper", "H_HelmetB_camo", "rhsusf_shemagh2_tan", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"			
+		"V_PlateCarrier2_rgr", "H_HelmetB_camo", "G_Bandanna_khk", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"			
 	};
-	uniformClass = "rhs_uniform_g3_mc";
-	backpack = "MSF_mc_MarksmanBackpack";
+	uniformClass = "U_B_CombatUniform_mcam_vest";
+	backpack = "MSF_mc_PMAGBackpack";
 };

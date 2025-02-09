@@ -5,30 +5,14 @@ class MSF_Rifleman_W :  MSF_w_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;	
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhs_weap_M320", "Throw", "Put"
-    };
-    magazines[] = {
-		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", 
-		"1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell",	"UGL_FlareGreen_F", "rhs_mag_M397_HET",
-		"rhs_mag_M397_HET", "rhs_mag_M397_HET", "ACE_40mm_Flare_green",  "ACE_40mm_Flare_green", 
-		"1Rnd_Smoke_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
+        "MSF_MXSW_W", "Binocular", "Throw", "Put"
     };
     linkedItems[] = {
         "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhs_weap_M320", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell", 
-		"1Rnd_Smoke_Grenade_shell", "1Rnd_Smoke_Grenade_shell",	"UGL_FlareGreen_F", "rhs_mag_M397_HET",
-		"rhs_mag_M397_HET", "rhs_mag_M397_HET", "ACE_40mm_Flare_green",  "ACE_40mm_Flare_green", 
-		"1Rnd_Smoke_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
+		"MSF_MXSW_W", "Binocular", "Throw", "Put"
 	};
 	respawnLinkedItems[] = {
         "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 

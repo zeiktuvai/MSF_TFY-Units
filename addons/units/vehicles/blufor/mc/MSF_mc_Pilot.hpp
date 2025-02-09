@@ -7,13 +7,12 @@ class MSF_Pilot :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_rhs_SCARH_STD", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+        "MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "9Rnd_45ACP_Mag", 
-		"9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_9x21_Mag", 
+		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer"
     };
     items[] = {
 		"ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_MapTools", "ACE_RangeCard", "ACE_Banana", "ACE_packingBandage", "ACE_packingBandage",
@@ -27,13 +26,12 @@ class MSF_Pilot :  MSF_Soldier_Base
 		"JAS_GPNVG18_blk_TI",
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_SCARH_STD", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+		"MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "9Rnd_45ACP_Mag", 
-		"9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_9x21_Mag", 
+		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer"
 	};
 	RespawnItems[] = {
 		"ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_MapTools", "ACE_RangeCard", "ACE_Banana", "ACE_packingBandage", "ACE_packingBandage",

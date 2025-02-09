@@ -8,35 +8,33 @@ class MSF_Crewman :  MSF_Soldier_Base
 	engineer = 1;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_rhs_SCARH", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+        "MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "rhs_mag_30Rnd_556x45_Mk318_PMAG", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer"
     };
     items[] = {
 		"ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
     };
     linkedItems[] = {
-        "rhsusf_spcs_ocp_crewman", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS",
+        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS",
 		"JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_SCARH", "Binocular", "rhsusf_weap_m1911a1", "Throw", "Put"
+		"MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-        "rhs_mag_20Rnd_SCAR_762x51_m62_tracer", "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag", "9Rnd_45ACP_Mag",
-		"9Rnd_45ACP_Mag", "rhs_mag_30Rnd_556x45_Mk318_PMAG", "rhsusf_mag_7x45acp_MHP"
+        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer"
 	};
 	RespawnItems[] = {
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
 	};
 	respawnLinkedItems[] = {
-        "rhsusf_spcs_ocp_crewman", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
+        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
 		"JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "U_B_HeliPilotCoveralls";

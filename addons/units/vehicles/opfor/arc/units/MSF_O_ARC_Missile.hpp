@@ -11,7 +11,7 @@ class MSF_O_ARC_ATRifleman : MSF_O_ARC_Soldier_Base
 	magazines[] = {
 		"acex_intelitems_notepad", "ACE_painkillers", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer",
 		"ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "SmokeShellGreen",
-		"SmokeShellRed", "HandGrenade", "HandGrenade", "rhs_mag_maaws_HEAT", "20Rnd_762x51_Mag"
+		"SmokeShellRed", "HandGrenade", "HandGrenade", "MRAWS_HEAT_F", "20Rnd_762x51_Mag"
 	};
     respawnWeapons[] = {
 		"MSF_ARC_SPAR", "Binocular", "launch_MRAWS_green_F", "Throw", "Put"
@@ -19,7 +19,7 @@ class MSF_O_ARC_ATRifleman : MSF_O_ARC_Soldier_Base
 	respawnMagazines[] = {
 		"acex_intelitems_notepad", "ACE_painkillers", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer",
 		"ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_Mag_Tracer", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "SmokeShellGreen",
-		"SmokeShellRed", "HandGrenade", "HandGrenade", "rhs_mag_maaws_HEAT", "20Rnd_762x51_Mag"
+		"SmokeShellRed", "HandGrenade", "HandGrenade", "MRAWS_HEAT_F", "20Rnd_762x51_Mag"
 	};
     backpack = "MSF_O_ARC_ATBackpack";
 };

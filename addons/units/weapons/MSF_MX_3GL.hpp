@@ -1,20 +1,20 @@
-class rhs_weap_m249_light_s;
-class MSF_rhs_m249 : rhs_weap_m249_light_s
+class arifle_MX_GL_F;
+class MSF_MX_3GL : arifle_MX_GL_F
 {
 	scope = 1;
-	displayName = "MSF HK416 (M203)";
+	displayName = "MSF MX 3GL";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "rhsusf_acc_su230";
+			item = "ACE_optic_Hamr_2D";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
-			item = "rhsusf_acc_anpeq15A";
+			item = "ACE_DBAL_A3_Green";
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";
-			item = "rhsusf_acc_SFMB556";
+			item = "ACE_muzzle_mzls_B";
 		};
 	};
 };

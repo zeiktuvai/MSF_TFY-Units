@@ -131,7 +131,7 @@ class MSF_w_SniperBackpack : MSF_w_BaseBackpack
 	displayName = "Sniper Kitbag (Alpine)";
 	class TransportMagazines {
 		class _xx_10rnd_50 {
-			magazine = "rhsusf_mag_10Rnd_STD_50BMG_mk211";
+			magazine = "ACE_10Rnd_338_300gr_HPBT_Mag";
 			count = 3;
 		};
 	};
@@ -141,14 +141,8 @@ class MSF_w_ATBackpack : MSF_w_BaseBackpack
 {
 	displayName = "Anti-Tank Kitbag (Alpine)";
 	class TransportMagazines {
-		class _xx_maaws_het {
-			magazine = "rhs_mag_maaws_HEAT";
-			count = 2;
-		};
-		class _xx_maaws_hedp {
-			magazine = "rhs_mag_maaws_HEDP";
-			count = 1;
-		};
+		class _xx_maaws_het { magazine = "MRAWS_HEAT_F"; count = 2; };
+		class _xx_maaws_hedp { magazine = "MRAWS_HEAT55_F"; count = 1; };
 	};
 };
 

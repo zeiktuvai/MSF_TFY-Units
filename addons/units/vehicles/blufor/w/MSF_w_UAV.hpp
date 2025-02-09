@@ -3,13 +3,13 @@ class MSF_UAV_W :  MSF_UAV
 	displayName = "Drone Operator";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+        "MSF_MXSW_W", "Binocular", "Throw", "Put"
     };
     magazines[] = {
  		"acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "HandGrenade", 
         "HandGrenade", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "30Rnd_65x39_caseless_black_mag_Tracer",
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "SmokeShellGreen",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_rsp30_red"
+        "30Rnd_65x39_caseless_black_mag_Tracer"
     };
     items[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 
@@ -23,13 +23,13 @@ class MSF_UAV_W :  MSF_UAV
 		"JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+		"MSF_MXSW_W", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
  		"acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "HandGrenade", 
         "HandGrenade", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "30Rnd_65x39_caseless_black_mag_Tracer",
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "SmokeShellGreen",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_rsp30_red"
+        "30Rnd_65x39_caseless_black_mag_Tracer"
 	};
 	RespawnItems[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 

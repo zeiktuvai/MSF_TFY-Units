@@ -7,7 +7,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
     magazines[] = {
         "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_maaws_HEAT",
+		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "MRAWS_HEAT_F",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
     };
     items[] = {
@@ -18,12 +18,12 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_hk416d", "Rangefinder", "launch_MRAWS_green_F", "Throw", "Put"
+		"MSF_MXSW_W", "Rangefinder", "launch_MRAWS_green_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_maaws_HEAT",
+		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "MRAWS_HEAT_F",
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
 	};
 	RespawnItems[] = {
@@ -57,7 +57,7 @@ class MSF_AARifleman_W :  MSF_AARifleman
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_hk416d", "Rangefinder", "launch_I_Titan_F", "Throw", "Put"
+		"MSF_MXSW_W", "Rangefinder", "launch_I_Titan_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",

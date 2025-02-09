@@ -2,13 +2,13 @@ class MSF_Medic_W :  MSF_Medic
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+        "MSF_MXSW_W", "Binocular", "Throw", "Put"
     };
     magazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", 
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_rsp30_red"
+        "30Rnd_65x39_caseless_black_mag_Tracer"
     };
     items[] = {
 		"ACE_Banana"  
@@ -18,13 +18,13 @@ class MSF_Medic_W :  MSF_Medic
         "B_UavTerminal", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "rhs_weap_rsp30_red", "Throw", "Put"
+		"MSF_MXSW_W", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", 
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
         "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "rhs_mag_rsp30_red"
+        "30Rnd_65x39_caseless_black_mag_Tracer"
 	};
 	RespawnItems[] = {
 		"ACE_Banana"

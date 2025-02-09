@@ -7,20 +7,24 @@ class MSF_Soldier_Base : B_Soldier_base_f
 	author = "Zeik_Tuvai";
 	faction = "BLU_F_MSF";
 	weapons[] = {
-        "MSF_rhs_weap_hk416_m320", "Binocular", "Throw", "Put"
+        "MSF_MX", "Binocular", "Throw", "Put"
     };
 	magazines[] = {
-		"acex_intelitems_notepad"
+		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "HandGrenade", "HandGrenade", "ACE_CTS9", "ACE_CTS9"
 	};
 	items[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", 
         "ACE_HuntIR_monitor", "ACE_WaterBottle", "ACE_Canteen", "ACE_microDAGR", "ACE_Banana"
 	};
 	respawnWeapons[] = {
-		"MSF_rhs_weap_hk416_m320", "Binocular", "Throw", "Put"
+		"MSF_MX", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-		"acex_intelitems_notepad"
+		"acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "HandGrenade", "HandGrenade", "ACE_CTS9", "ACE_CTS9"
 	};
 	RespawnItems[] = {
 		"ACE_EarPlugs", "ACE_MapTools", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", 

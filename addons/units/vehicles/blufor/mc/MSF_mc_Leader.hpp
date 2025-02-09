@@ -7,11 +7,12 @@ class MSF_Leader :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_rhs_SCARH_STD", "rhs_weap_M320", "Binocular", "Throw", "Put"
+        "MSF_MX_3GL", "Binocular", "Throw", "Put"
     };
     magazines[] = {
-		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "1Rnd_HE_Grenade_shell", "ACE_HandFlare_Green",
+		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell",
+		"ACE_HandFlare_Green", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
 		"ACE_HandFlare_Green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F",
 		"1Rnd_HE_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
     };
@@ -19,15 +20,16 @@ class MSF_Leader :  MSF_Soldier_Base
 		"ACE_Banana", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_wirecutter", "ACE_WaterBottle", "ACE_epinephrine", "ACE_splint", "ACE_splint", "ACE_adenosine"       
     };
     linkedItems[] = {
-        "rhsusf_spc_squadleader", "rhsusf_opscore_mc_cover_pelt_nsw", "rhsusf_oakley_goggles_clr", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
+        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
         "ItemGPS", "JAS_GPNVG18_Tan"
     };	
 	respawnWeapons[] = {
-		"MSF_rhs_SCARH_STD", "rhs_weap_M320", "Binocular", "Throw", "Put"
+		"MSF_MX_3GL", "Binocular", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", "1Rnd_HE_Grenade_shell", "ACE_HandFlare_Green",
+		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell",
+		"ACE_HandFlare_Green", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
 		"ACE_HandFlare_Green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F",
 		"1Rnd_HE_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
 	};
@@ -35,9 +37,9 @@ class MSF_Leader :  MSF_Soldier_Base
 		"ACE_Banana", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_wirecutter", "ACE_WaterBottle", "ACE_epinephrine", "ACE_splint", "ACE_splint", "ACE_adenosine"
 	};
 	respawnLinkedItems[] = {
-        "rhsusf_spc_squadleader", "rhsusf_opscore_mc_cover_pelt_nsw", "rhsusf_oakley_goggles_clr", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
+        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
         "ItemGPS", "JAS_GPNVG18_Tan"		
 	};
-    uniformClass = "rhs_uniform_g3_mc";
+    uniformClass = "U_B_CombatUniform_mcam";
     backpack = "MSF_mc_PMAGSupplyBackpack";
 };
