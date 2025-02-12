@@ -9,6 +9,6 @@ class MSF_RTO_N : MSF_RTO
         "V_PlateCarrier2_blk", "H_HelmetSpecB_blk", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
 		"ItemGPS", "JAS_GPNVG18_blk"        
     };
-    uniformClass = "U_B_CombatUniform_mcam";
+    uniformClass = "MSF_BLUFOR_Clothing_MCB";
     backpack = "MSF_blk_RTOBackPack";
 };

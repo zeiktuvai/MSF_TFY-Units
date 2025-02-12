@@ -7,6 +7,6 @@ class MSF_Repair_N :  MSF_Repair
 	respawnLinkedItems[] = {
         "V_PlateCarrier2_blk", "H_Booniehat_mgrn", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk"
 	};
-    uniformClass = "U_B_CombatUniform_mcam";
+    uniformClass = "MSF_BLUFOR_Clothing_MCB";
     backpack = "MSF_blk_PMAGBackpack";
 };

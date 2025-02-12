@@ -9,6 +9,6 @@ class MSF_Medic_N :  MSF_Medic
         "V_TacVestIR_blk", "H_HelmetB_light_black", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk"
 	};
-    uniformClass = "U_B_CombatUniform_mcam";
+    uniformClass = "MSF_BLUFOR_Clothing_MCB";
     backpack = "MSF_blk_MedicBackpack";
 };

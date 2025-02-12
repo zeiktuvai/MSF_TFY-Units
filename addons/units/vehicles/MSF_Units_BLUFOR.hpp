@@ -46,6 +46,7 @@
 #include "blufor\blk\MSF_blk_Rifleman.hpp"
 #include "blufor\blk\MSF_blk_RTO.hpp"
 #include "blufor\blk\MSF_blk_UAV.hpp"
+#include "blufor\blk\MSF_blk_Crewman.hpp"
 
 #include "blufor\w\MSF_w_Backpack.hpp"
 #include "blufor\w\MSF_w_Crewman.hpp"

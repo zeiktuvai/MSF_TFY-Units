@@ -9,6 +9,6 @@ class MSF_UAV_N :  MSF_UAV
         "V_PlateCarrier2_blk", "H_HelmetSpecB_blk", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk"
 	};
-    uniformClass = "U_B_CombatUniform_mcam";
+    uniformClass = "MSF_BLUFOR_Clothing_MCB";
     backpack = "B_UAV_01_backpack_F";
 };

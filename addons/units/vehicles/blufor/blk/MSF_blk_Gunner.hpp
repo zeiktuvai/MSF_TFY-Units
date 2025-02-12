@@ -9,6 +9,6 @@ class MSF_Gunner_N :  MSF_Gunner
         "V_PlateCarrier1_blk", "H_HelmetB_black", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
         "JAS_GPNVG18_blk"	
 	};
-    uniformClass = "U_B_CombatUniform_mcam";
+    uniformClass = "MSF_BLUFOR_Clothing_MCB";
     backpack = "MSF_blk_BaseBackpack";
 };
