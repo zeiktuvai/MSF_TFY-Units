@@ -1,6 +1,7 @@
 class VestItem;
 class V_PlateCarrier1_blk;
 class V_PlateCarrier2_rgr;
+class V_PlateCarrierGL_rgr;
 
 class H_HelmetB: ItemCore 
 { 

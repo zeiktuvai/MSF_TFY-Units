@@ -30,6 +30,40 @@ class MSF_NATO_WINTER_V_PLATECARRIER2 : V_PlateCarrier2_rgr
 		mass = 100;
 	};
 };
+class MSF_NATO_W_PLATECARRIERGL : V_PlateCarrierGL_rgr
+{
+	author="Zeik_Tuvai";
+	displayName="Carrier GL Rig (Alpine)";
+	//picture="\NATO_Winter_Data\UI\icon_v_carriergl_snow.paa";
+	model="\A3\Characters_F\BLUFOR\equip_b_carrier_gl_rig.p3d";
+	hiddenSelectionsTextures[] ={"z\msf\addons\units\data\nato_w\MSF_BLUFOR_carrier_gl.paa"};
+	hiddenSelections[]=	{"Camo"};
+	class ItemInfo: VestItem
+	{
+		uniformModel="\A3\Characters_F\BLUFOR\equip_b_carrier_gl_rig.p3d";
+		hiddenSelectionsTextures[] =	{"z\msf\addons\units\data\nato_w\MSF_BLUFOR_carrier_gl.paa"};
+		hiddenSelections[]= {"Camo"};
+		containerClass="Supply140";
+		mass=100;
+	};
+};
+
+
+// class MSF_NATO_W_CARRIER_GL :
+// {
+// 	author="Zeik_Tuvai";	
+// 	displayName="Carrier Special Rig (Snow)";
+// 	//picture="\NATO_Winter_Data\UI\icon_v_carrierspec";
+// 	model="\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
+// 	hiddenSelectionsTextures[] =	{"\NATO_Winter_Units\Data\Vests\MSF_BLUFOR_carrier_gl.paa"};
+// 	hiddenSelections[] = { "Camo" };
+// 	class ItemInfo : VestItem
+// 	{
+// 		uniformModel="\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
+// 		hiddenSelectionsTextures[]=	{"\NATO_Winter_Units\Data\Vests\MSF_BLUFOR_carrier_gl.paa"};
+// 		hiddenSelections[]= {"Camo"};
+// 	};
+// };
 	// class NATO_WINTER_V_TACVEST: Vest_Camo_Base
 	// {
 	// 	author="MALLINGA";
@@ -90,156 +124,7 @@ class MSF_NATO_WINTER_V_PLATECARRIER2 : V_PlateCarrier2_rgr
 	// 		};
 	// 	};
 	// };
-	// class NATO_WINTER_V_PLATECARRIERGL: Vest_NoCamo_Base
-	// {
-	// 	author="MALLINGA";
-	// 	_generalMacro="NATO_WINTER_V_PLATECARRIERGL";
-	// 	scope=2;
-	// 	scopeCurator=2;
-	// 	scopeArsenal=2;
-	// 	descriptionShort = "Explosive Resistant";
-	// 	displayName="Carrier GL Rig (Snow)";
-	// 	picture="\NATO_Winter_Data\UI\icon_v_carriergl_snow.paa";
-	// 	model="\A3\Characters_F\BLUFOR\equip_b_carrier_gl_rig.p3d";
-	// 	hiddenSelectionsTextures[]=
-	// 	{
-	// 		"\NATO_Winter_Units\Data\Vests\NATO_Winter_carrier_gl.paa"
-	// 	};
-	// 	hiddenSelections[]=
-	// 	{
-	// 		"Camo"
-	// 	};
-	// 	class ItemInfo: VestItem
-	// 	{
-	// 		uniformModel="\A3\Characters_F\BLUFOR\equip_b_carrier_gl_rig.p3d";
-	// 		hiddenSelectionsTextures[]=
-	// 		{
-	// 			"\NATO_Winter_Units\Data\Vests\NATO_Winter_carrier_gl.paa"
-	// 		};
-	// 		hiddenSelections[]=
-	// 		{
-	// 			"Camo"
-	// 		};
-	// 		containerClass="Supply140";
-	// 		mass=100;
-	// 		class HitpointsProtectionInfo
-	// 		{
-	// 			class Neck
-	// 			{
-	// 				hitpointName="HitNeck";
-	// 				armor=8;
-	// 				passThrough=0.5;
-	// 			};
-	// 			class Arms
-	// 			{
-	// 				hitpointName="HitArms";
-	// 				armor=8;
-	// 				passThrough=0.5;
-	// 			};
-	// 			class Chest
-	// 			{
-	// 				hitpointName="HitChest";
-	// 				armor=78;
-	// 				passThrough=0.60000002;
-	// 			};
-	// 			class Diaphragm
-	// 			{
-	// 				hitpointName="HitDiaphragm";
-	// 				armor=78;
-	// 				passThrough=0.60000002;
-	// 			};
-	// 			class Abdomen
-	// 			{
-	// 				hitpointName="HitAbdomen";
-	// 				armor=16;
-	// 				passThrough=0.30000001;
-	// 			};
-	// 			class Pelvis
-	// 			{
-	// 				hitpointName="HitPelvis";
-	// 				armor=16;
-	// 				passThrough=0.30000001;
-	// 			};
-	// 			class Body
-	// 			{
-	// 				hitpointName="HitBody";
-	// 				passThrough=0.60000002;
-	// 			};
-	// 		};
-	// 	};
-	// };
-	// class NATO_WINTER_V_PLATECARRIERSPEC: Vest_NoCamo_Base
-	// {
-	// 	author="MALLINGA";
-	// 	_generalMacro="NATO_WINTER_V_PLATECARRIERSPEC";
-	// 	scope=2;
-	// 	scopeCurator=2;
-	// 	scopeArsenal=2;
-	// 	descriptionShort = "Armor Level V";
-	// 	displayName="Carrier Special Rig (Snow)";
-	// 	picture="\NATO_Winter_Data\UI\icon_v_carrierspec";
-	// 	model="\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
-	// 	hiddenSelectionsTextures[]=
-	// 	{
-	// 		"\NATO_Winter_Units\Data\Vests\NATO_Winter_carrier_gl.paa"
-	// 	};
-	// 	hiddenSelections[]=
-	// 	{
-	// 		"Camo"
-	// 	};
-	// 	class ItemInfo: VestItem
-	// 	{
-	// 		uniformModel="\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
-	// 		hiddenSelectionsTextures[]=
-	// 		{
-	// 			"\NATO_Winter_Units\Data\Vests\NATO_Winter_carrier_gl.paa"
-	// 		};
-	// 		hiddenSelections[]=
-	// 		{
-	// 			"Camo"
-	// 		};
-	// 		containerClass="Supply100";
-	// 		mass=120;
-	// 		class HitpointsProtectionInfo
-	// 		{
-	// 			class Neck
-	// 			{
-	// 				hitpointName="HitNeck";
-	// 				armor=8;
-	// 				passThrough=0.5;
-	// 			};
-	// 			class Arms
-	// 			{
-	// 				hitpointName="HitArms";
-	// 				armor=8;
-	// 				passThrough=0.5;
-	// 			};
-	// 			class Chest
-	// 			{
-	// 				hitpointName="HitChest";
-	// 				armor=24;
-	// 				passThrough=0.1;
-	// 			};
-	// 			class Diaphragm
-	// 			{
-	// 				hitpointName="HitDiaphragm";
-	// 				armor=24;
-	// 				passThrough=0.1;
-	// 			};
-	// 			class Abdomen
-	// 			{
-	// 				hitpointName="HitAbdomen";
-	// 				armor=24;
-	// 				passThrough=0.1;
-	// 			};
-	// 			class Body
-	// 			{
-	// 				hitpointName="HitBody";
-	// 				passThrough=0.1;
-	// 			};
-	// 		};
-	// 	};
-	// };
+	
 	// class NATO_WINTER_V_BANDOLLIER: Vest_Camo_Base
 	// {
 	// 	author="MALLINGA";

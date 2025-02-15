@@ -7,6 +7,9 @@ class MSF_Crewman :  MSF_Soldier_Base
 	scope = 2;
 	engineer = 1;
 	scopeCurator = 2;
+	hiddenSelections[] = {"Camo","Insignia"}; 
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\MSF_BLUFOR_Tanker_mc.paa"};
+    model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	weapons[] = {
         "MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
@@ -37,6 +40,6 @@ class MSF_Crewman :  MSF_Soldier_Base
         "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
 		"JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "U_B_HeliPilotCoveralls";
+    uniformClass = "MSF_BLUFOR_Tanker_MC";
     backpack = "MSF_mc_PMAGBackpack";
 };

@@ -5,14 +5,14 @@ class MSF_Grenadier_W :  MSF_Grenadier
         "MSF_MXGL_White","Rangefinder", "Throw", "Put"
     };
     linkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERGL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
+        "NATO_WINTER_H_HELMETPLAIN", "MSF_NATO_W_PLATECARRIERGL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
         "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
 		"MSF_MXGL_White","Rangefinder", "Throw", "Put"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERGL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
+        "NATO_WINTER_H_HELMETPLAIN", "MSF_NATO_W_PLATECARRIERGL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
         "ItemGPS", "JAS_GPNVG18_blk_TI"	
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
