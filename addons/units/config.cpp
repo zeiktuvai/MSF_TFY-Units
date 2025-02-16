@@ -34,7 +34,7 @@ class CfgPatches
             "MSF_O_ARC_MBT_03", "MSF_O_ARC_MBT_04", "MSF_O_ARC_Heli_1", "MSF_O_ARC_Heli_2", "MSF_O_ARC_Heli_3", "MSF_O_ARC_Heli_4"
         };
         weapons[] = {
-            "MSF_MXM", "MSF_M249", "MSF_MAR10",
+            "MSF_MXM", "MSF_M249", "MSF_MAR10", "MSF_MX_B", "MSF_MXC_B", "MSF_MXGL_B", "MSF_MXM_B",
             "MSF_MXSW_W", "MSF_MXGL_White", "MSF_MMG_W", "MSF_MXM_W", "MSF_MXC_W", "MSF_MX", "MSF_MXC",
             "MSF_MX_3GL", "MSF_ARC_SPAR", "MSF_ARC_SPAR_MG", "MSF_ARC_SPAR_GL", "MSF_ARC_DMR", "MSF_NATO_Uniform_Alpine"
         };
@@ -51,7 +51,7 @@ class CfgVehicles {
 class CfgWeapons
 {
     class ItemCore;
-    #include "MSF_Weapons.hpp"
+    #include "cfg\MSF_Weapons.hpp"
     #include "cfg\MSF_Equipment.hpp"
 };
 

@@ -1,6 +1,12 @@
 class MSF_Engineer_N :  MSF_Engineer
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    weapons[] = {
+        "MSF_MX_B", "Binocular", "hgun_P07_F", "Throw", "Put"
+    };
+    respawnWeapons[] = {
+		"MSF_MX_B", "Binocular", "hgun_P07_F", "Throw", "Put"
+	};
     linkedItems[] = {
         "V_PlateCarrier2_blk", "H_HelmetB_light_black", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk"
     };	

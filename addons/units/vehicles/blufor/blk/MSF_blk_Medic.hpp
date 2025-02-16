@@ -1,6 +1,12 @@
 class MSF_Medic_N :  MSF_Medic
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    weapons[] = {
+        "MSF_MX_B", "Binocular", "Throw", "Put"
+    };
+    respawnWeapons[] = {
+		"MSF_MX_B", "Binocular", "Throw", "Put"
+	};
     linkedItems[] = {
         "V_TacVestIR_blk", "H_HelmetB_light_black", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk"
