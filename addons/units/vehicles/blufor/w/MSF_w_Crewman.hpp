@@ -1,6 +1,9 @@
 class MSF_Crewman_W :  MSF_Crewman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	hiddenSelections[] = {"Camo","Insignia"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\MSF_BLUFOR_Tanker_Alpine.paa"};
+    model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	weapons[] = {
         "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
@@ -31,6 +34,6 @@ class MSF_Crewman_W :  MSF_Crewman
         "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
 		"ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
-    uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
+    uniformClass = "MSF_BLUFOR_Tanker_Alpine";
     backpack = "MSF_w_PMAGBackpack";
 };
