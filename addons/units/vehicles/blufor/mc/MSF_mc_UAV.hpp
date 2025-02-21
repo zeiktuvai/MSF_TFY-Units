@@ -5,6 +5,7 @@ class MSF_UAV :  MSF_Soldier_Base
 	editorSubcategory = "MSF_EdSubcat_Inf";
 	scope = 2;
 	scopeCurator = 2;
+    uavHacker = 1;
 	weapons[] = {
         "MSF_MX", "Binocular", "Throw", "Put"
     };
