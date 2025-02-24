@@ -7,34 +7,38 @@ class MSF_Gunner :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_M249", "hgun_P07_F", "Binocular", "Throw", "Put"
-    };
+        "MSF_M249",
+		#include "../../base/Base_Weap_HgunBino.inc"
+	};
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "200Rnd_556x45_Box_Tracer_Red_F", 
+        #include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 		"200Rnd_556x45_Box_Tracer_Red_F", "200Rnd_556x45_Box_Tracer_Red_F", "200Rnd_556x45_Box_Tracer_Red_F",
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
+		"200Rnd_556x45_Box_Tracer_Red_F"
     };
     items[] = {
-		"ACE_Banana", "ACE_WaterBottle", "ACE_RangeCard"
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-        "JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_M249", "hgun_P07_F", "Binocular", "Throw", "Put"
+		"MSF_M249",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "200Rnd_556x45_Box_Tracer_Red_F", 
+        #include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 		"200Rnd_556x45_Box_Tracer_Red_F", "200Rnd_556x45_Box_Tracer_Red_F", "200Rnd_556x45_Box_Tracer_Red_F",
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
+		"200Rnd_556x45_Box_Tracer_Red_F"
 	};
 	RespawnItems[] = {
-		"ACE_Banana", "ACE_WaterBottle", "ACE_RangeCard"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-        "JAS_GPNVG18_Tan_TI"	
+        "V_PlateCarrier1_rgr", "H_HelmetB_grass", "G_Combat", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_CombatUniform_mcam";
     backpack = "MSF_mc_BaseBackpack";

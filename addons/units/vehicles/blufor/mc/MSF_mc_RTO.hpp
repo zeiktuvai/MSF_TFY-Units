@@ -6,34 +6,38 @@ class MSF_RTO :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_MX", "Binocular", "Throw", "Put"
+        "MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", 
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "SmokeShellGreen", "SmokeShellGreen",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc" 
     };
     items[] = {
-		"MineDetector", "ACE_Banana", "ACE_RangeCard"
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_HelmetSpecB", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-		"JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_HelmetSpecB", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MX", "Binocular", "Throw", "Put"
+		"MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad",  "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", 
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
+        "SmokeShellGreen", "SmokeShellGreen",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc" 
 	};
 	RespawnItems[] = {
-		"MineDetector", "ACE_Banana", "ACE_RangeCard"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_HelmetSpecB", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-		"JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_HelmetSpecB", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_CombatUniform_mcam";
     backpack = "MSF_mc_RTOBackPack";

@@ -10,34 +10,7 @@ class MSF_mc_BaseBackpack : B_ViperLightHarness_base_F
 	};
 	class TransportMagazines {
 		#include "..\..\base\Base_BackPack_Grenades.hpp"
-	};
-};
-
-//TODO: DELTE THIS
-class MSF_mc_MarksmanBackpack : MSF_mc_BaseBackpack
-{
-	displayName = "Viper Light Marksman Backpack";
-	class TransportMagazines {
-		#include "..\..\base\Base_BackPack_Grenades.hpp"
-		class _xx_20rnd_m993 { magazine = "ACE_30Rnd_65_Creedmor_mag"; count = 2; };
-	};
-};
-
-class MSF_mc_PMAGBackpack : MSF_mc_BaseBackpack
-{
-	displayName = "Viper Light Infantry Backpack";
-	class TransportMagazines {
-		#include "..\..\base\Base_BackPack_Grenades.hpp"
-		class _xx_30rnd_tan_pmag { magazine = "30Rnd_65x39_caseless_mag_Tracer"; count = 3; };
-	};
-};
-
-class MSF_mc_PMAGSupplyBackpack : MSF_mc_BaseBackpack
-{
-	displayName = "Viper Light Ammo Bearer Backpack";
-	class TransportMagazines {
-		#include "..\..\base\Base_BackPack_Grenades.hpp"
-		class _xx_20rnd_pmag { magazine = "30Rnd_65x39_caseless_mag_Tracer"; count = 8; };
+		#include "..\..\base\Base_BackPack_Mags.inc"
 	};
 };
 

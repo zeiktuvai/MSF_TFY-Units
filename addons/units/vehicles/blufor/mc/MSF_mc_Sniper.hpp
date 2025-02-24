@@ -9,29 +9,35 @@ class MSF_Sniper : MSF_Sniper_Base
 		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
 	};
 	magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", 
-		"ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag",
-		"ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
+        "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
+		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	items[] = {
-		"ACE_Banana", "ACE_RangeCard", "ACE_PlottingBoard", "ACE_ATragMX", "ACE_bodyBag"
+		"ACE_PlottingBoard", "ACE_bodyBag",
+		#include "../../base/Base_Items.inc"
 	};
 	linkedItems[] = {
-		"V_PlateCarrierSpec_rgr", "H_Shemag_olive_hs", "G_Balaclava_TI_tna_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk"
+		"V_PlateCarrierSpec_rgr", "H_Shemag_olive_hs", "G_Balaclava_TI_tna_F", "JAS_GPNVG18_blk",
+		#include "../../base/Base_Linked.inc"
 	};
 	respawnWeapons[] = {
 		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", 
-		"ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag",
-		"ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
+        "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
+		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	RespawnItems[] = {
-		"ACE_Banana", "ACE_RangeCard", "ACE_PlottingBoard", "ACE_ATragMX", "ACE_bodyBag"
+		"ACE_PlottingBoard", "ACE_bodyBag",
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-		"V_PlateCarrierSpec_rgr", "H_Shemag_olive_hs", "G_Balaclava_TI_tna_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk"		
+		"V_PlateCarrierSpec_rgr", "H_Shemag_olive_hs", "G_Balaclava_TI_tna_F", "JAS_GPNVG18_blk"		,
+		#include "../../base/Base_Linked.inc"
 	};
 	uniformClass = "U_B_GhillieSuit";
 	backpack = "MSF_mc_SniperBackpack";

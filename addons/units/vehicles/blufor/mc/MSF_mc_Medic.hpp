@@ -8,34 +8,38 @@ class MSF_Medic :  MSF_Soldier_Base
     attendant = 1;
     icon = "iconManMedic";
 	weapons[] = {
-        "MSF_MX", "Binocular", "Throw", "Put"
+        "MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
+        "SmokeShellOrange", "SmokeShellPurple"
     };
     items[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_light", "G_Lowprofile", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
-		"JAS_GPNVG18_blk_TI"
+        "V_PlateCarrier1_rgr", "H_HelmetB_light", "G_Lowprofile", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MX", "Binocular", "Throw", "Put"
+		"MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
+        "SmokeShellOrange", "SmokeShellPurple"
 	};
 	RespawnItems[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_light", "G_Lowprofile", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
-		"JAS_GPNVG18_blk_TI"
+        "V_PlateCarrier1_rgr", "H_HelmetB_light", "G_Lowprofile", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_CombatUniform_mcam";
     backpack = "MSF_mc_MedicBackpack";

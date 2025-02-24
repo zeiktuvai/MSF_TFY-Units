@@ -5,35 +5,30 @@ class MSF_Crewman_W :  MSF_Crewman
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\MSF_BLUFOR_Tanker_Alpine.paa"};
     model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-    };
-    magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag",
+        "MSF_MXC_W",
+        #include "../../base/Base_Weap_HgunBino.inc"
     };
     items[] = {
-		"ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
+		#include "../../base/Base_Items.inc"		
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
-		"ItemGPS", "JAS_GPNVG18_blk_TI"
+        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
+        #include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
+		"MSF_MXC_W",
+        #include "../../base/Base_Weap_HgunBino.inc"
 	};
 	RespawnItems[] = {
+		#include "../../base/Base_Items.inc"
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
-		"ItemGPS", "JAS_GPNVG18_blk_TI"
+        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
+        #include "../../base/Base_Linked.inc"
 	};
+       
+
     uniformClass = "MSF_BLUFOR_Tanker_Alpine";
     backpack = "MSF_w_PMAGBackpack";
 };

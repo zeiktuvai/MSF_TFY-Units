@@ -8,35 +8,39 @@ class MSF_Repair :  MSF_Soldier_Base
 	engineer = 1;
 	icon = "iconManEngineer";
 	weapons[] = {
-        "MSF_MX", "Binocular", "hgun_P07_F", "Throw", "Put"
+        "MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer", 
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", 
-		"30Rnd_9x21_Mag"
+        #include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"    
     };
     items[] = {
-		"ACE_Banana", "ACE_Flashlight_XL50", "ToolKit"
+		"ACE_Flashlight_XL50", "ToolKit",
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MX", "Binocular", "hgun_P07_F", "Throw", "Put"
+		"MSF_MX",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "30Rnd_65x39_caseless_mag_Tracer", 
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-        "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", 
-		"30Rnd_9x21_Mag"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"        
 	};
 	RespawnItems[] = {
-		"ACE_Banana", "ACE_Flashlight_XL50", "ToolKit"
+		"ACE_Flashlight_XL50", "ToolKit",
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "JAS_GPNVG18_Tan_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_CombatUniform_mcam_vest";
-    backpack = "MSF_mc_PMAGBackpack";
+    backpack = "MSF_mc_BaseBackpack";
 };

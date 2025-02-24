@@ -6,30 +6,6 @@ class MSF_trop_BaseBackpack : MSF_mc_BaseBackpack
 	picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_oli_F_ca.paa";
 };
 
-class MSF_trop_MarksmanBackpack : MSF_mc_MarksmanBackpack
-{
-	displayName = "Viper Light Marksman Backpack (trop)";
-	scope = 2;	
-	hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Bags\Data\Backpack_ViperOp_oli_co.paa"};
-	picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_oli_F_ca.paa";	
-};
-
-class MSF_trop_PMAGBackpack : MSF_mc_PMAGBackpack
-{
-	displayName = "Viper Light Infantry Backpack (trop)";
-	scope = 2;	
-	hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Bags\Data\Backpack_ViperOp_oli_co.paa"};
-	picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_oli_F_ca.paa";	
-};
-
-class MSF_trop_PMAGSupplyBackpack : MSF_mc_PMAGSupplyBackpack
-{
-	displayName = "Viper Light Ammo Bearer Backpack (trop)";
-	scope = 2;	
-	hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Bags\Data\Backpack_ViperOp_oli_co.paa"};
-	picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_oli_F_ca.paa";	
-};
-
 class MSF_trop_SniperBackpack : MSF_mc_SniperBackpack
 {
 	displayName = "Viper Light Sniper Backpack (trop)";

@@ -7,39 +7,43 @@ class MSF_Leader :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_MX_3GL", "Binocular", "Throw", "Put"
+        "MSF_MX_3GL",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell",
-		"ACE_HandFlare_Green", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"ACE_HandFlare_Green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F",
-		"1Rnd_HE_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
+		"SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell", "ACE_HandFlare_Green", "ACE_HandFlare_Green",
+		"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F", "1Rnd_HE_Grenade_shell",
+		"ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
     };
     items[] = {
-		"ACE_Banana", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_wirecutter", "ACE_WaterBottle", "ACE_epinephrine", "ACE_splint", "ACE_splint", "ACE_adenosine"       
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
-        "ItemGPS", "JAS_GPNVG18_Tan"
+        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "JAS_GPNVG18_Tan",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MX_3GL", "Binocular", "Throw", "Put"
+		"MSF_MX_3GL",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-		"acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell",
-		"ACE_HandFlare_Green", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"ACE_HandFlare_Green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F",
-		"1Rnd_HE_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
+		"SmokeShellGreen", "SmokeShellGreen", "1Rnd_HE_Grenade_shell", "ACE_HandFlare_Green", "ACE_HandFlare_Green",
+		"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareGreen_F", "UGL_FlareGreen_F", "1Rnd_HE_Grenade_shell",
+		"ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
 	};
 	RespawnItems[] = {
-		"ACE_Banana", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_wirecutter", "ACE_WaterBottle", "ACE_epinephrine", "ACE_splint", "ACE_splint", "ACE_adenosine"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", 
-        "ItemGPS", "JAS_GPNVG18_Tan"		
+        "V_PlateCarrier2_rgr", "H_HelmetB_grass", "G_Combat", "JAS_GPNVG18_Tan",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_CombatUniform_mcam";
-    backpack = "MSF_mc_PMAGSupplyBackpack";
+    backpack = "MSF_mc_BaseBackpack";
 };

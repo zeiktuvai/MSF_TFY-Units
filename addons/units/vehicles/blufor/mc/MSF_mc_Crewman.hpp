@@ -11,35 +11,39 @@ class MSF_Crewman :  MSF_Soldier_Base
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\MSF_BLUFOR_Tanker_mc.paa"};
     model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	weapons[] = {
-        "MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
+        "MSF_MXC",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
     };
     items[] = {
-		"ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
+		"ToolKit",
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS",
-		"JAS_GPNVG18_blk_TI"
+        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
+		"MSF_MXC",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer"
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	RespawnItems[] = {
-		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
+		"ToolKit",
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-		"JAS_GPNVG18_blk_TI"
+        "V_Chestrig_rgr", "H_HelmetCrew_B", "G_Tactical_Clear", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "MSF_BLUFOR_Tanker_MC";
-    backpack = "MSF_mc_PMAGBackpack";
+    backpack = "MSF_mc_BaseBackpack";
 };

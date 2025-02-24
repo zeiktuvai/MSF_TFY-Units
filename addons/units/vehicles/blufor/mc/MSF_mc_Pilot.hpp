@@ -7,42 +7,40 @@ class MSF_Pilot :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-        "MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
+        "MSF_MXC",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_9x21_Mag", 
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer"
+        "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
     };
-    items[] = {
-		"ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_MapTools", "ACE_RangeCard", "ACE_Banana", "ACE_packingBandage", "ACE_packingBandage",
-		"ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_adenosine", "ACE_morphine", "ACE_morphine", "ACE_splint", "ACE_splint",
-		"ACE_tourniquet", "ACE_tourniquet", "ACE_salineIV_500", "ACE_DAGR", "ACE_WaterBottle", "ACE_Canteen", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot",
-		"ACE_quikclot", "ACE_quikclot", "ACE_epinephrine", "ACE_morphine", "ACE_morphine", "ACE_salineIV_500", "ACE_bodyBag", "ACE_bloodIV", "ACE_microDAGR",
-		"muzzle_snds_M"
+    items[] = {		
+		#include "../../base/Base_Items.inc"
+		#include "../../base/Items_No_BackPack.inc"
     };
     linkedItems[] = {
-        "V_Chestrig_oli", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-		"JAS_GPNVG18_blk_TI",
+        "V_Chestrig_oli", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
-		"MSF_MXC", "Binocular", "hgun_P07_F", "Throw", "Put"
+		"MSF_MXC",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_9x21_Mag", 
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer",
-		"30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer", "30Rnd_65x39_caseless_mag_Tracer"
+        "SmokeShellGreen", "SmokeShellGreen", "SmokeShellRed",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	RespawnItems[] = {
-		"ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_MapTools", "ACE_RangeCard", "ACE_Banana", "ACE_packingBandage", "ACE_packingBandage",
-		"ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_adenosine", "ACE_morphine", "ACE_morphine", "ACE_splint", "ACE_splint",
-		"ACE_tourniquet", "ACE_tourniquet", "ACE_salineIV_500", "ACE_DAGR", "ACE_WaterBottle", "ACE_Canteen", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot",
-		"ACE_quikclot", "ACE_quikclot", "ACE_epinephrine", "ACE_morphine", "ACE_morphine", "ACE_salineIV_500", "ACE_bodyBag", "ACE_bloodIV", "ACE_microDAGR",
-		"muzzle_snds_M"
+		#include "../../base/Base_Items.inc"
+		#include "../../base/Items_No_BackPack.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_Chestrig_oli", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
-		"JAS_GPNVG18_blk_TI",
+        "V_Chestrig_oli", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "U_B_HeliPilotCoveralls";
     backpack = "B_Parachute";
