@@ -24,5 +24,5 @@ class MSF_Marksman_N : MSF_Marksman
         #include "../../base/Base_Items_Night.inc"
 	};
 	uniformClass = "MSF_BLUFOR_Clothing_MCB";
-	backpack = "MSF_blk_MarksmanBackpack";
+	backpack = "MSF_blk_BaseBackpack";
 };

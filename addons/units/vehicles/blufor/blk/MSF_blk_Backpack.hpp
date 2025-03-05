@@ -6,6 +6,8 @@ class MSF_blk_BaseBackpack : MSF_mc_BaseBackpack
 	picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_blk_F_ca.paa";
 };
 
+class MSF_blk_PMAGBackpack : MSF_blk_BaseBackpack {};
+
 class MSF_blk_SniperBackpack : MSF_mc_SniperBackpack
 {
 	displayName = "Viper Light Sniper Backpack (black)";
