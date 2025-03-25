@@ -1,3 +1,4 @@
+class B_Kitbag_rgr;
 #include "blufor\MSF_Soldier_Base.hpp"
 #include "blufor\MSF_Sniper_Base.hpp"
 #include "blufor\w\MSF_w_Soldier_Base.hpp"
@@ -53,6 +54,7 @@
 #include "blufor\w\MSF_w_Engineer.hpp"
 #include "blufor\w\MSF_w_Grenadier.hpp"
 #include "blufor\w\MSF_w_Gunner.hpp"
+#include "blufor\w\MSF_w_HeliCrew.hpp"
 #include "blufor\w\MSF_w_Leader.hpp"
 #include "blufor\w\MSF_w_Marksman.hpp"
 #include "blufor\w\MSF_w_Medic.hpp"

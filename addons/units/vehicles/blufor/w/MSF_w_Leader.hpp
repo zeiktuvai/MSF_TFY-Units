@@ -36,5 +36,5 @@ class MSF_Leader_W :  MSF_Leader
         "ItemGPS", "JAS_GPNVG18_Tan_TI"		
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "MSF_w_PMAGSupplyBackpack";
+    backpack = "MSF_w_BaseBackpack";
 };

@@ -24,14 +24,9 @@ class CfgPatches
             "MSF_mc_AABackpack", "MSF_mc_MedicBackpack", "MSF_mc_EngBackpack", "MSF_mc_MineBackpack",
             "MSF_Crewman_W", "MSF_Engineer_W", "MSF_Grenadier_W", "MSF_Gunner_W", "MSF_Leader_W", "MSF_Marksman_W", "MSF_Medic_W", 
             "MSF_Mine_W", "MSF_ATRifleman_W", "MSF_AARifleman_W", "MSF_Pilot_W", "MSF_Repair_W", "MSF_Rifleman_W", "MSF_Sniper_W", 
-            "MSF_UAV_W", "MSF_w_BaseBackpack", "MSF_w_SniperBackpack",
+            "MSF_UAV_W", "MSF_Helicrew_w", "MSF_w_BaseBackpack", "MSF_w_SniperBackpack",
             "MSF_w_ATBackpack", "MSF_w_AABackpack", "MSF_w_SAWBackpack", "MSF_w_MedicBackpack", "MSF_w_EngBackpack", "MSF_w_MineBackpack",
-            "MSF_O_ARC_Rifleman", "MSF_O_ARC_Marksman", "MSF_O_ARC_Grenadier", "MSF_O_ARC_Autorifleman", "MSF_O_ARC_Medic", "MSF_O_ARC_ATRifleman",
-            "MSF_O_ARC_AARifleman", "MSF_O_ARC_Leader", "MSF_O_ARC_Engineer", "MSF_O_ARC_Crewman", "MSF_O_ARC_Helicrew", "MSF_O_ARC_Backpack",
-            "MSF_O_ARC_MedicBackpack", "MSF_O_ARC_ATBackpack", "MSF_O_ARC_AABackpack", "MSF_O_ARC_EngBackpack", "MSF_O_ARC_GMG_01_High",
-            "MSF_O_ARC_GMG_01", "MSF_O_ARC_HMG_01_High", "MSF_O_ARC_HMG_01", "MSF_O_ARC_Mortar", "MSF_O_ARC_DAGOR_Green", "MSF_O_ARC_DAGOR_AT",
-            "MSF_O_ARC_DAGOR_Armed", "MSF_O_ARC_MRAP", "MSF_O_ARC_MRAP_GMG", "MSF_O_ARC_MRAP_HMG", "MSF_O_ARC_MBT_01", "MSF_O_ARC_MBT_02",
-            "MSF_O_ARC_MBT_03", "MSF_O_ARC_MBT_04", "MSF_O_ARC_Heli_1", "MSF_O_ARC_Heli_2", "MSF_O_ARC_Heli_3", "MSF_O_ARC_Heli_4"
+            #include "vehicles\opfor\arc\ARC_Units.inc"
         };
         weapons[] = {
             "MSF_MXM", "MSF_M249", "MSF_MAR10", "MSF_MX_B", "MSF_MXC_B", "MSF_MXGL_B", "MSF_MXM_B",
@@ -53,6 +48,7 @@ class CfgWeapons
     class ItemCore;
     #include "cfg\MSF_Weapons.hpp"
     #include "cfg\MSF_Equipment.hpp"
+    #include "cfg\MSF_Uniforms.hpp"
 };
 
 class UniformSlotInfo 

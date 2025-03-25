@@ -11,6 +11,7 @@
 #include "opfor\arc\units\MSF_O_ARC_Engineer.hpp"
 #include "opfor\arc\units\MSF_O_ARC_Crewman.hpp"
 #include "opfor\arc\units\MSF_O_ARC_HeliCrew.hpp"
+#include "opfor\arc\units\MSF_O_ARC_Survivor.hpp"
 
 #include "opfor\arc\vic\MSF_O_ARC_Vic.hpp"
 #include "opfor\arc\vic\MSF_O_ARC_Armor.hpp"

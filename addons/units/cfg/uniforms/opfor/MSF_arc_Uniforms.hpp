@@ -1,12 +1,3 @@
-class UniformItem;    
-
-class Uniform_Base : ItemCore
-{
-    class ItemInfo;
-};
-
-#include "blufor/MSF_BLUFOR_Uniforms.hpp"
-
 class MSF_O_ARC_Uniform : Uniform_Base
 {
     author="Zeik_Tuvai";
@@ -20,7 +11,6 @@ class MSF_O_ARC_Uniform : Uniform_Base
         mass = 50; 
     }; 
 };
-
 class MSF_O_ARC_Recon : Uniform_Base
 {
     author="Zeik_Tuvai";
@@ -34,7 +24,6 @@ class MSF_O_ARC_Recon : Uniform_Base
         mass = 50; 
     }; 
 };
-
 class MSF_O_ARC_Tank_Crew : Uniform_Base
 {
     author="Zeik_Tuvai";
@@ -48,7 +37,6 @@ class MSF_O_ARC_Tank_Crew : Uniform_Base
         mass = 50;
     }; 
 };
-
 class MSF_O_ARC_Coveralls : Uniform_Base
 {
     author="Zeik_Tuvai";
@@ -62,4 +50,3 @@ class MSF_O_ARC_Coveralls : Uniform_Base
         mass = 50;
     }; 
 };
-

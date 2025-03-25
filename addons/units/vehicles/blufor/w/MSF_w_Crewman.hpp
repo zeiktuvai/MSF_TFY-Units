@@ -30,5 +30,5 @@ class MSF_Crewman_W :  MSF_Crewman
        
 
     uniformClass = "MSF_BLUFOR_Tanker_Alpine";
-    backpack = "MSF_w_PMAGBackpack";
+    backpack = "MSF_w_BaseBackpack";
 };

@@ -19,5 +19,5 @@ class MSF_Rifleman_W :  MSF_w_Soldier_Base
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "MSF_w_PMAGSupplyBackpack";
+    backpack = "MSF_w_BaseBackpack";
 };

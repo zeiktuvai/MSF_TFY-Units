@@ -16,5 +16,5 @@ class MSF_Grenadier_W :  MSF_Grenadier
         "ItemGPS", "JAS_GPNVG18_blk_TI"	
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "MSF_w_PMAGBackpack";
+    backpack = "MSF_w_BaseBackpack";
 };

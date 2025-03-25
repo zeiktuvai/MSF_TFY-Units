@@ -15,6 +15,8 @@ class MSF_Pilot_W :  MSF_Pilot
         "NATO_WINTER_V_CHESTRIG", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
 		"JAS_GPNVG18_blk_TI",
 	};
-    uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
+    uniformClass = "MSF_BLUFOR_Coveralls_Alpine";
     backpack = "B_Parachute";
+	model = "\A3\Characters_F\Common\coveralls.p3d";
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Coveralls_Alpine.paa"};
 };

@@ -12,7 +12,7 @@ class ARC_Helmet : H_HelmetB
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         modelSides[] = {3,1};
         hiddenSelections[] = {"Camo"};
-        armor = "3*0.4";
+        armor = 1.2;
         passThrough = 0.65;
     };
 };
@@ -30,7 +30,7 @@ class ARC_Helmet_Lite : H_HelmetB
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
         modelSides[] = {3,1};
         hiddenSelections[] = {"Camo"};
-        armor = "3*0.3";
+        armor = 0.9;
         passThrough = 0.75;
     };
 };

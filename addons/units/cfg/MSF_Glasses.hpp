@@ -10,7 +10,7 @@ class CfgGlasses
 		displayname = "Balaclava (White)";
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\z\msf\addons\units\data\ui\icon\Balaclava_White.paa";
-        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\MSF_balaclava_white.paa"};
+        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\glasses\MSF_balaclava_white.paa"};
         identityTypes[] = {
             "NoGlasses", 0, "G_RUS_SF", 25
         };
@@ -22,7 +22,7 @@ class CfgGlasses
 		displayname = "Balaclava (Alpine)";
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\z\msf\addons\units\data\ui\icon\Balaclava_Alpine.paa";
-        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\MSF_balaclava_alpine.paa"};
+        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\glasses\MSF_balaclava_alpine.paa"};
         identityTypes[] = {
             "NoGlasses", 0, "G_RUS_SF", 25
         };
@@ -34,7 +34,7 @@ class CfgGlasses
 		displayname = "Stealth Balaclava (Alpine)";
 		model = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_F.p3d";
 		picture = "\z\msf\addons\units\data\ui\icon\Stealth_Balaclava_Alpine.paa";
-        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\MSF_Balaclava_TI_Alpine.paa"};
+        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\glasses\MSF_Balaclava_TI_Alpine.paa"};
         identityTypes[] = {};
 		mass = 4;
 	};
@@ -45,7 +45,7 @@ class CfgGlasses
 		model = "\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_G_F.p3d";
 		picture = "\z\msf\addons\units\data\ui\icon\Stealth_Balaclava_Alpine_Goggles.paa";
 		hiddenSelections[] = {"camo1","camo2"};
-        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\MSF_Balaclava_TI_Alpine.paa","\z\msf\addons\units\data\nato_w\MSF_g_combat_alpine.paa"};
+        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\glasses\MSF_Balaclava_TI_Alpine.paa","\z\msf\addons\units\data\blufor\w\glasses\MSF_g_combat_alpine.paa"};
         identityTypes[] = {};
 		mass = 4;
 	};
@@ -55,6 +55,6 @@ class CfgGlasses
 		displayname = "Combat Goggles (White)";
 		model = "\A3\characters_f_beta\heads\glasses\g_combat.p3d";
 		picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
-        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\nato_w\MSF_g_combat_alpine.paa"};
+        hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\glasses\MSF_g_combat_alpine.paa"};
 	};
 };

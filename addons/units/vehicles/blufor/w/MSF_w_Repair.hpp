@@ -14,5 +14,5 @@ class MSF_Repair_W :  MSF_Repair
         "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
 	};
     uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
-    backpack = "MSF_w_PMAGBackpack";
+    backpack = "MSF_w_BaseBackpack";
 };

@@ -12,10 +12,3 @@ class CfgPatches
     };
 };
 
-class CfgWeapons
-{
-    class ItemCore;
-    #include "MSF_Uniforms.hpp"
-};
-
-

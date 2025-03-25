@@ -1,7 +1,7 @@
     class MSF_O_ARC_Helicrew : MSF_O_ARC_Soldier_Base
     {
         author = "Zeik_Tuvai";
-        displayName = "Pilot";
+        displayName = "Heli Crew";
         scope = 2;
         scopeCurator = 2;
        	role = "MSFCrew";
