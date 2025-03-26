@@ -4,6 +4,8 @@ class V_PlateCarrier2_rgr;
 class V_PlateCarrierGL_rgr;
 class V_PlateCarrierSpec_rgr;
 class V_TacVest_oli;
+class V_BandollierB_blk;
+class V_Chestrig_rgr;
 
 class H_HelmetB: ItemCore 
 { 

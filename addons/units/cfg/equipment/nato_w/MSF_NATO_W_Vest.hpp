@@ -66,12 +66,12 @@ class MSF_NATO_W_CARRIER_GL : V_PlateCarrierSpec_rgr
 
 class MSF_NATO_W_TACVEST : V_TacVest_oli
 {
-	author="Zeik_Tuvai";	
-	displayName="Tactical Vest (Alpine)";
+	author = "Zeik_Tuvai";	
+	displayName = "Tactical Vest (Alpine)";
 	//picture="\NATO_Winter_Data\UI\icon_V_TacVest_snow.paa";
-	model="\A3\Characters_F\Common\equip_tacticalvest.p3d";
-	hiddenSelections[]= {"Camo"};
-	hiddenSelectionsTextures[]=	{"z\msf\addons\units\data\blufor\w\equipment\MSF_TacticalVest_Alpine.paa"};
+	model = "\A3\Characters_F\Common\equip_tacticalvest.p3d";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_TacticalVest_Alpine.paa"};
 	class ItemInfo: VestItem
 	{
 		uniformModel="\A3\Characters_F\Common\equip_tacticalvest.p3d";
@@ -81,35 +81,36 @@ class MSF_NATO_W_TACVEST : V_TacVest_oli
 	};
 };
 
-	// class MSF_NATO_W_BANDOLLIER : Vest_Camo_Base
-	// {
-	// 	author = "Zeik_Tuvai";	
-	// 	displayName = "Slash Bandolier (Snow)";
-	// 	picture = "\NATO_Winter_Data\UI\icon_v_bandolier.paa";
-	// 	model = "\A3\Characters_F\BLUFOR\equip_b_bandolier";
-	// 	hiddenSelectionsTextures[] = { "\NATO_Winter_Units\Data\Vests\NATO_Winter_vest.paa" };
-	// 	class ItemInfo : ItemInfo
-	// 	{
-	// 		uniformModel = "\A3\Characters_F\BLUFOR\equip_b_bandolier";
-	// 		containerClass = "Supply80";
-	// 		mass = 10;
-	// 	};
-	// };
+class MSF_NATO_W_BANDOLLIER : V_BandollierB_blk
+{
+	author = "Zeik_Tuvai";	
+	displayName = "Slash Bandolier (Alpine)";
+	//picture = "\NATO_Winter_Data\UI\icon_v_bandolier.paa";
+	model = "\A3\Characters_F\BLUFOR\equip_b_bandolier";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_Vest_Alpine.paa"};
+	class ItemInfo : VestItem
+	{
+		uniformModel = "\A3\Characters_F\BLUFOR\equip_b_bandolier";
+		containerClass = "Supply80";
+		mass = 10;
+		hiddenSelections[] = {"camo"};
+	};
+};
 
-	// class MSF_NATO_W_CHESTRIG: Vest_Camo_Base
-	// {
-	// 	author="Zeik_Tuvai";
-	// 	descriptionShort = "No Armor";
-	// 	displayName = "Chest Rig (Snow)";
-	// 	picture = "\NATO_Winter_Data\UI\icon_v_chestrig.paa";
-	// 	model = "\A3\Characters_F\Common\equip_chestrig";
-	// 	hiddenSelections[] = {"Camo1", "Camo2" };
-	// 	hiddenSelectionsTextures[] = { "\NATO_Winter_Units\Data\Vests\NATO_Winter_equip_chestrig.paa", "\NATO_Winter_Units\Data\Vests\NATO_Winter_vest.paa" };
-	// 	class ItemInfo: ItemInfo
-	// 	{
-	// 		uniformModel="\A3\Characters_F\Common\equip_chestrig.p3d";
-	// 		containerClass="Supply140";
-	// 		mass=20;
-	// 		hiddenSelections[] = {"camo1", "camo2" };
-	// 	};
-	// };
+class MSF_NATO_W_CHESTRIG : V_Chestrig_rgr
+{
+	author = "Zeik_Tuvai";
+	displayName = "Chest Rig (Alpine)";
+	//picture = "\NATO_Winter_Data\UI\icon_v_chestrig.paa";
+	model = "\A3\Characters_F\Common\equip_chestrig";
+	hiddenSelections[] = {"Camo1", "Camo2" };
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_chestrig_Alpine.paa", "z\msf\addons\units\data\blufor\w\equipment\MSF_TacticalVest_Alpine.paa" };
+	class ItemInfo: VestItem
+	{
+		uniformModel="\A3\Characters_F\Common\equip_chestrig.p3d";
+		containerClass="Supply140";
+		mass=20;
+		hiddenSelections[] = {"camo1", "camo2" };
+	};
+};
