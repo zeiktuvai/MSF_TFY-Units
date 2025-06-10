@@ -46,6 +46,7 @@ class B_Kitbag_rgr;
 #include "blufor\blk\MSF_blk_Repair.hpp"
 #include "blufor\blk\MSF_blk_Rifleman.hpp"
 #include "blufor\blk\MSF_blk_RTO.hpp"
+#include "blufor\blk\MSF_blk_Survivor.hpp"
 #include "blufor\blk\MSF_blk_UAV.hpp"
 #include "blufor\blk\MSF_blk_Crewman.hpp"
 
@@ -65,6 +66,7 @@ class B_Kitbag_rgr;
 #include "blufor\w\MSF_w_Rifleman.hpp"
 #include "blufor\w\MSF_w_RTO.hpp"
 #include "blufor\w\MSF_w_Sniper.hpp"
+#include "blufor\w\MSF_w_Survivor.hpp"
 #include "blufor\w\MSF_w_UAV.hpp"
 
 #include "blufor\sf\MSF_sf_Backpack.hpp"

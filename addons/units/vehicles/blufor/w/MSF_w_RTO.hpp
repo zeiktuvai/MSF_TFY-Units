@@ -26,5 +26,5 @@ class MSF_RTO_W :  MSF_RTO
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "MSF_trop_RTOBackPack";
+    backpack = "MSF_blk_RTOBackPack";
 };
