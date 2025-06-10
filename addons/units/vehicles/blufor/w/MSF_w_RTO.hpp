@@ -10,7 +10,7 @@ class MSF_RTO_W :  MSF_RTO
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
     };
     linkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
+        "MSF_NATO_HelmetSpec_w", "MSF_NATO_W_CARRIER_GL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -22,7 +22,7 @@ class MSF_RTO_W :  MSF_RTO
 		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
     };
 	respawnLinkedItems[] = {
-        "NATO_WINTER_H_HELMETPLAIN", "NATO_WINTER_V_PLATECARRIERSPEC", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
+        "MSF_NATO_HelmetSpec_w", "MSF_NATO_W_CARRIER_GL", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";

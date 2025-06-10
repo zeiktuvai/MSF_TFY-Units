@@ -14,7 +14,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 		"ACE_Banana"  
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -30,7 +30,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 		"ACE_Banana"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
@@ -53,7 +53,7 @@ class MSF_AARifleman_W :  MSF_AARifleman
 		"ACE_Banana"  
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
 	respawnWeapons[] = {
@@ -69,7 +69,7 @@ class MSF_AARifleman_W :  MSF_AARifleman
 		"ACE_Banana"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIERSPEC", "NATO_WINTER_H_HELMETPLAIN", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";

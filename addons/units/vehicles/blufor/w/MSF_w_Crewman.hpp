@@ -2,7 +2,7 @@ class MSF_Crewman_W :  MSF_Crewman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	hiddenSelections[] = {"Camo","Insignia"};
-	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\MSF_BLUFOR_Tanker_Alpine.paa"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\uniform\MSF_BLUFOR_Tanker_Alpine.paa"};
     model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	weapons[] = {
         "MSF_MXC_W",
@@ -12,7 +12,7 @@ class MSF_Crewman_W :  MSF_Crewman
 		#include "../../base/Base_Items.inc"		
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
+        "MSF_NATO_WINTER_V_PLATECARRIER1", "MSF_NATO_HelmetCrew_w", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
         #include "../../base/Base_Linked.inc"
     };	
 	respawnWeapons[] = {
@@ -24,10 +24,9 @@ class MSF_Crewman_W :  MSF_Crewman
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER1", "NATO_WINTER_H_HELMETCREW", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
+        "MSF_NATO_WINTER_V_PLATECARRIER1", "MSF_NATO_HelmetCrew_w", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
         #include "../../base/Base_Linked.inc"
 	};
-       
 
     uniformClass = "MSF_BLUFOR_Tanker_Alpine";
     backpack = "MSF_w_BaseBackpack";

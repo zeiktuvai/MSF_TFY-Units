@@ -5,14 +5,14 @@ class MSF_Repair_W :  MSF_Repair
         "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
     };
     linkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "MSF_NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
     };	
 	respawnWeapons[] = {
 		"MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
 	};
 	respawnLinkedItems[] = {
-        "NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
+        "MSF_NATO_WINTER_V_PLATECARRIER2", "NATO_WINTER_H_BOONIEHAT", "MSF_Balaclava_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_Tan_TI"
 	};
-    uniformClass = "NATO_WINTER_HELIPILOT_COVERALLS";
+    uniformClass = "MSF_BLUFOR_Coveralls_Alpine";
     backpack = "MSF_w_BaseBackpack";
 };

@@ -34,7 +34,7 @@ class CfgPatches
             "MSF_MX_3GL", "MSF_ARC_SPAR", "MSF_ARC_SPAR_MG", "MSF_ARC_SPAR_GL", "MSF_ARC_DMR", "MSF_NATO_Uniform_Alpine"
         };
         requiredVersion = 2.0;
-        requiredAddons[] = { "MSF3den", "NATO_Winter_Units"};
+        requiredAddons[] = { "MSF3den" };
     };
 };
 
