@@ -1,16 +1,11 @@
 class MSF_Pilot_W :  MSF_Pilot
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-	weapons[] = {
-        "MSF_MXC_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-    };
+	#include "mx_carbine.inc"
     linkedItems[] = {
         "MSF_NATO_W_CHESTRIG", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
 		"JAS_GPNVG18_blk_TI",
-    };	
-	respawnWeapons[] = {
-		"MSF_MXC_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-	};
+    };
 	respawnLinkedItems[] = {
         "MSF_NATO_W_CHESTRIG", "H_PilotHelmetHeli_B", "G_Tactical_Clear", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", 
 		"JAS_GPNVG18_blk_TI",

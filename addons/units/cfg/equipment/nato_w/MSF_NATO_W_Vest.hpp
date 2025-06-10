@@ -6,11 +6,11 @@ class MSF_NATO_WINTER_V_PLATECARRIER1 : V_PlateCarrier1_blk
 	hiddenSelections[] = { "Camo" };
 	hiddenSelectionsTextures[] = { "z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_Vest_Alpine.paa" };
 };
-class MSF_NATO_WINTER_V_PLATECARRIER2 : V_PlateCarrier2_rgr
+class MSF_NATO_WINTER_V_PLATECARRIER2 : V_PlateCarrier2_blk
 {
 	author = "Zeik_Tuvai";	
 	displayName = "Carrier Rig (Alpine)";
-	model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+	model = "A3\Characters_F\BLUFOR\equip_b_Vest01.p3d"; 
 	hiddenSelectionsTextures[] = { "z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_Vest_Alpine.paa" };
 	hiddenSelections[] = { "Camo" };
 };

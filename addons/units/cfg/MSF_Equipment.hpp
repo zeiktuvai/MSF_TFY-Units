@@ -1,6 +1,6 @@
 class VestItem;
 class V_PlateCarrier1_blk;
-class V_PlateCarrier2_rgr;
+class V_PlateCarrier2_blk;
 class V_PlateCarrierGL_rgr;
 class V_PlateCarrierSpec_rgr;
 class V_TacVest_oli;

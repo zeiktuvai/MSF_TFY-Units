@@ -1,26 +1,13 @@
 class MSF_Mine_W :  MSF_Mine
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "Throw", "Put"
-    };
-    magazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
-    };
+	#include "mx_std.inc"
     items[] = {
 		"ACE_DefusalKit", "MineDetector", "ACE_Banana" 
     };
     linkedItems[] = {
         "V_EOD_blue_F", "H_HelmetHBK_chops_F", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
-	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
-	};
 	RespawnItems[] = {
 		"ACE_DefusalKit", "MineDetector", "ACE_Banana"
 	};

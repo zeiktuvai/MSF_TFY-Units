@@ -2,36 +2,38 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Rangefinder", "NATO_WINTER_MAAWS", "Throw", "Put"
+        "MSF_MX", "launch_MRAWS_green_F",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "MRAWS_HEAT_F",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
+		"MRAWS_HEAT_F",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
     };
     items[] = {
-		"ACE_Banana"  
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
-		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
-    };	
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
+    };
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Rangefinder", "launch_MRAWS_green_F", "Throw", "Put"
+		"MSF_MX", "launch_MRAWS_green_F",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "MRAWS_HEAT_F",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
+		"MRAWS_HEAT_F",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	RespawnItems[] = {
-		"ACE_Banana"
-	};
+		#include "../../base/Base_Items.inc"
+	};	
 	respawnLinkedItems[] = {
-        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
-		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_ATBackpack";
@@ -41,36 +43,38 @@ class MSF_AARifleman_W :  MSF_AARifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MXSW_W", "Rangefinder", "NATO_WINTER_TITAN", "Throw", "Put"
+        "MSF_MX", "launch_I_Titan_F",
+		#include "../../base/Base_Weap_HgunBino.inc"
     };
     magazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "Titan_AA",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
+        "Titan_AA",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
     };
     items[] = {
-		"ACE_Banana"  
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
-		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
-    };	
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
+    };
 	respawnWeapons[] = {
-		"MSF_MXSW_W", "Rangefinder", "launch_I_Titan_F", "Throw", "Put"
+		"MSF_MX", "launch_I_Titan_F",
+		#include "../../base/Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {
-        "acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "Titan_AA",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer"
+        "Titan_AA",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_MX.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	RespawnItems[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass",
-		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
+        "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "JAS_GPNVG18_blk_TI",
+		#include "../../base/Base_Linked.inc"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "MSF_w_AABackpack";

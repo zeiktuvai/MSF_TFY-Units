@@ -9,34 +9,15 @@ class MSF_Engineer_W :  MSF_w_Soldier_Base
 	icon = "iconManEngineer";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
-	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-    };
-    magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
-    };
+ 	#include "mx_std.inc"
     items[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER2", "MSF_NATO_HelmetLite_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS"
-    };	
-	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "hgun_P07_F", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellRed", "SmokeShellRed", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer",
-		"30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-		"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"
-	};
+    };
 	RespawnItems[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER2", "MSF_NATO_HelmetLite_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS"

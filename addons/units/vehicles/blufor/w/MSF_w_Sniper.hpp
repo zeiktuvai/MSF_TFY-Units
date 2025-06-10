@@ -5,13 +5,25 @@ class MSF_Sniper_W : MSF_Sniper
 	hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Ghillie_Coverall_Alpine.paa","\z\msf\addons\units\data\blufor\w\uniform\MSF_ghillie_threads_alpine.paa","\z\msf\addons\units\data\blufor\w\uniform\MSF_ghillie_threads_5LOD_alpine.paa"};
 	hiddenSelections[] = {"camo","camo3","camo4"};
 	weapons[] = {
-		"srifle_DMR_02_Winter_F","Rangefinder","hgun_P07_F", "Throw", "Put"
+		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
+	};
+	magazines[] = {
+        "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
+		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	linkedItems[] = {
 		"MSF_NATO_W_TACVEST", "H_Shemag_olive_hs", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
 	};
 	respawnWeapons[] = {
-		"srifle_DMR_02_Winter_F","Rangefinder","hgun_P07_F", "Throw", "Put"
+		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
+	};
+	respawnMagazines[] = {
+        "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
+		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
+		#include "../../base/Base_Mags.inc"
+		#include "../../base/Base_Mags_Hgun.inc"
 	};
 	respawnLinkedItems[] = {
 		"MSF_NATO_W_TACVEST", "H_Shemag_olive_hs", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"		

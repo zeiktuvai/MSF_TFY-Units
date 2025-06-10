@@ -2,46 +2,23 @@ class MSF_UAV_W :  MSF_UAV
 {
 	displayName = "Drone Operator";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "Throw", "Put"
-    };
-    magazines[] = {
- 		"acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "HandGrenade", 
-        "HandGrenade", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "SmokeShellGreen",
-        "30Rnd_65x39_caseless_black_mag_Tracer"
-    };
+    #include "mx_std.inc"
     items[] = {
-		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 
-        "ACE_HuntIR_monitor", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", 
-        "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_bodyBag", "ACE_epinephrine", "ACE_adenosine", "ACE_morphine", "ACE_morphine", 
-        "ACE_morphine", "ACE_morphine", "ACE_splint", "ACE_splint", "ACE_tourniquet", "ACE_tourniquet", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_UAVBattery", 
-        "ACE_microDAGR", "ACE_Banana"  
+        #include "../../base/Base_Items.inc"
+        #include "../../base/Items_No_BackPack.inc"
     };
     linkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER2", "MSF_NATO_Helmet_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk_TI"
     };	
-	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "Throw", "Put"
-	};
-	respawnMagazines[] = {
- 		"acex_intelitems_notepad", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "HandGrenade", 
-        "HandGrenade", "SmokeShellRed", "SmokeShellPurple", "SmokeShellPurple", "30Rnd_65x39_caseless_black_mag_Tracer",
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "SmokeShellGreen",
-        "30Rnd_65x39_caseless_black_mag_Tracer"
-	};
 	RespawnItems[] = {
-		"ACE_EarPlugs", "ACE_MapTools", "ACE_DefusalKit", "ACE_M26_Clacker", "ACE_IR_Strobe_Item", "ACE_CableTie", "ACE_Banana", "ACE_Canteen", "ACE_WaterBottle", 
-        "ACE_HuntIR_monitor", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_quikclot", 
-        "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_bodyBag", "ACE_epinephrine", "ACE_adenosine", "ACE_morphine", "ACE_morphine", 
-        "ACE_morphine", "ACE_morphine", "ACE_splint", "ACE_splint", "ACE_tourniquet", "ACE_tourniquet", "ACE_salineIV_500", "ACE_salineIV_500", "ACE_UAVBattery", 
-        "ACE_microDAGR", "ACE_Banana"  
+        #include "../../base/Base_Items.inc"
+        #include "../../base/Items_No_BackPack.inc"
 	};
 	respawnLinkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER2", "MSF_NATO_Helmet_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 
 		"JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "NATO_WINTER_BACKPACK_UAV";
+    backpack = "B_UAV_01_backpack_F";
 };

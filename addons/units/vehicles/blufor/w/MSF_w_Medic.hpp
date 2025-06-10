@@ -1,33 +1,16 @@
 class MSF_Medic_W :  MSF_Medic
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-	weapons[] = {
-        "MSF_MXSW_W", "Binocular", "Throw", "Put"
-    };
-    magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer"
-    };
+	#include "mx_std.inc"
     items[] = {
-		"ACE_Banana"  
+		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
         "MSF_NATO_W_TACVEST", "MSF_NATO_Helmet_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",
         "B_UavTerminal", "JAS_GPNVG18_blk_TI"
-    };	
-	respawnWeapons[] = {
-		"MSF_MXSW_W", "Binocular", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellOrange", "SmokeShellPurple", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", "30Rnd_65x39_caseless_black_mag_Tracer", 
-        "30Rnd_65x39_caseless_black_mag_Tracer"
-	};
+    };
 	RespawnItems[] = {
-		"ACE_Banana"
+		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
         "MSF_NATO_W_TACVEST", "MSF_NATO_Helmet_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter",

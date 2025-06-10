@@ -1,12 +1,7 @@
 class MSF_Gunner_W :  MSF_Gunner
 {	
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-	weapons[] = {
-        "MSF_MMG_W", "Binocular", "Throw", "Put"
-    };
-    magazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "130Rnd_338_Mag", "130Rnd_338_Mag"
-    };
+	#include "mx_lmg.inc"
     items[] = {
 		"ACE_Banana", "ACE_WaterBottle"        
     };
@@ -14,12 +9,6 @@ class MSF_Gunner_W :  MSF_Gunner
         "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_G_Alpine", "ItemMap", "ItemRadio", "ItemCompass", 
 		"ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
     };	
-	respawnWeapons[] = {
-		"MSF_MMG_W", "Binocular", "Throw", "Put"
-	};
-	respawnMagazines[] = {
-        "acex_intelitems_notepad", "SmokeShellGreen", "SmokeShellGreen", "130Rnd_338_Mag", "130Rnd_338_Mag"
-	};
 	RespawnItems[] = {
 		"ACE_Banana", "ACE_WaterBottle" 
 	};
