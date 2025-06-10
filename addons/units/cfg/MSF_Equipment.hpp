@@ -10,6 +10,8 @@ class V_Chestrig_rgr;
 class H_HelmetSpecB;
 class H_HelmetB_light;
 class H_HelmetCrew_B;
+class H_Booniehat_mcamo;
+class H_MilCap_grn;
 
 class H_HelmetB: ItemCore 
 { 

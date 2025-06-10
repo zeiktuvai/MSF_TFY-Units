@@ -16,6 +16,6 @@ class MSF_Sniper_W : MSF_Sniper
 	respawnLinkedItems[] = {
 		"MSF_NATO_W_TACVEST", "H_Shemag_olive_hs", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"		
 	};
-	uniformClass = "MSF_BLUFOR_Ghillie_Alpine";
+	uniformClass = "MSF_BLUFOR_FullGhillie_Alpine";
 	backpack = "MSF_w_SniperBackpack";
 };

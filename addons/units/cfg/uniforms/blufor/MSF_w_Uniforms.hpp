@@ -62,7 +62,7 @@ class MSF_BLUFOR_Coveralls_Alpine : Uniform_Base
         mass = 50;
     }; 
 };
-class MSF_BLUFOR_Ghillie_Alpine : Uniform_Base
+class MSF_BLUFOR_FullGhillie_Alpine : Uniform_Base
 {
     author="Zeik_Tuvai";
     scope = 2;
@@ -70,7 +70,20 @@ class MSF_BLUFOR_Ghillie_Alpine : Uniform_Base
     picture = "\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_ard_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
     class ItemInfo : UniformItem { 
-        uniformClass = "MSF_Sniper_W"; 
+        uniformClass = "MSF_Sniper_W";
+        containerClass = "Supply50"; 
+        mass = 50;
+    }; 
+};
+class MSF_BLUFOR_Ghillie_Alpine : Uniform_Base
+{
+    author="Zeik_Tuvai";
+    scope = 2;
+    displayName = "Ghillie Suit (Alpine)";
+    picture = "\A3\characters_f\data\ui\icon_U_B_GhillieSuit_ca.paa";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+    class ItemInfo : UniformItem { 
+        uniformClass = "MSF_Marksman_W";
         containerClass = "Supply50"; 
         mass = 50;
     }; 
