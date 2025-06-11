@@ -1,3 +1,6 @@
+## [1.8.4]
+- Fixed textures for Multicam and Night Vehicle Crewman
+
 ## [1.8.3]
 - Added Alpine versions of:
     * Carrier Rig
