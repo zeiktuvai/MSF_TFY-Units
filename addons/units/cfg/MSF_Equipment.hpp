@@ -1,4 +1,4 @@
-class VestItem;
+//class VestItem;
 class V_PlateCarrier1_blk;
 class V_PlateCarrier2_blk;
 class V_PlateCarrierGL_rgr;
@@ -15,7 +15,7 @@ class H_MilCap_grn;
 
 class H_HelmetB: ItemCore 
 { 
-    class ItemInfo; 
+    //class ItemInfo; 
 }; 
 
 #include "equipment\opfor_arc\MSF_ARC_Vest.hpp"

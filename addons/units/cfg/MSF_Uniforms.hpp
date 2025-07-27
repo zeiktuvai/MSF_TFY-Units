@@ -2,7 +2,7 @@ class UniformItem;
 
 class Uniform_Base : ItemCore
 {
-    class ItemInfo;
+    //class ItemInfo;
 };
 
 #include "uniforms\blufor\MSF_blk_Uniforms.hpp"
