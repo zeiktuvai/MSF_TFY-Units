@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.8.6]
+
+- Added MSF Logistics terminal to Engineer and Mechanic classes
+
 ## [1.8.5]
 
 - Fixed missing backpack for Tropic marksman
