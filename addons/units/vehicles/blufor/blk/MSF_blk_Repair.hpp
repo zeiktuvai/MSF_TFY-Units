@@ -11,11 +11,11 @@ class MSF_Repair_N :  MSF_Repair
 	};
     linkedItems[] = {
         "V_PlateCarrier2_blk", "H_Booniehat_mgrn", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-        #include "../../base/Base_Linked.inc"
+        "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
     };
 	respawnLinkedItems[] = {
         "V_PlateCarrier2_blk", "H_Booniehat_mgrn", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-        #include "../../base/Base_Linked.inc"
+        "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
 	};
     items[] = {
 		"ToolKit",

@@ -21,8 +21,8 @@ class MSF_Engineer :  MSF_Soldier_Base
 		#include "../../base/Base_Items.inc"
     };
     linkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_light_desert", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-		#include "../../base/Base_Linked.inc"
+		"ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal",
+        "V_PlateCarrier1_rgr", "H_HelmetB_light_desert", "G_Tactical_Clear", "JAS_GPNVG18_blk"
     };	
 	respawnWeapons[] = {
 		"MSF_MX",
@@ -37,8 +37,8 @@ class MSF_Engineer :  MSF_Soldier_Base
 		#include "../../base/Base_Items.inc"
 	};
 	respawnLinkedItems[] = {
-        "V_PlateCarrier1_rgr", "H_HelmetB_light_desert", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-		#include "../../base/Base_Linked.inc"
+		"ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal",
+        "V_PlateCarrier1_rgr", "H_HelmetB_light_desert", "G_Tactical_Clear", "JAS_GPNVG18_blk"
 	};
     uniformClass = "U_B_CombatUniform_mcam_tshirt";
     backpack = "MSF_mc_EngBackpack";

@@ -22,7 +22,7 @@ class MSF_Repair :  MSF_Soldier_Base
     };
     linkedItems[] = {
         "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "JAS_GPNVG18_Tan_TI",
-		#include "../../base/Base_Linked.inc"
+		"ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
     };	
 	respawnWeapons[] = {
 		"MSF_MX",
@@ -39,7 +39,7 @@ class MSF_Repair :  MSF_Soldier_Base
 	};
 	respawnLinkedItems[] = {
         "V_PlateCarrier2_rgr", "H_Booniehat_mcamo", "G_Tactical_Clear", "JAS_GPNVG18_Tan_TI",
-		#include "../../base/Base_Linked.inc"
+		"ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
 	};
     uniformClass = "U_B_CombatUniform_mcam_vest";
     backpack = "MSF_mc_BaseBackpack";

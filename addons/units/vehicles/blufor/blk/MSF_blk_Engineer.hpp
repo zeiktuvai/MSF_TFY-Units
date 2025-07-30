@@ -11,11 +11,11 @@ class MSF_Engineer_N :  MSF_Engineer
 	};
     linkedItems[] = {
         "V_PlateCarrier2_blk", "H_HelmetB_light_black", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-        #include "../../base/Base_Linked.inc"
+        "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
     };	
 	respawnLinkedItems[] = {
         "V_PlateCarrier2_blk", "H_HelmetB_light_black", "G_Tactical_Clear", "JAS_GPNVG18_blk",
-        #include "../../base/Base_Linked.inc"
+        "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "MSF_LogisticsTerminal"
 	};
     items[] = {
 		#include "../../base/Base_Items.inc"
