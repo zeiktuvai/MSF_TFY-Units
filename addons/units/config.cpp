@@ -27,6 +27,7 @@ class CfgPatches
 };
 
 class CfgVehicles {
+    #include "vehicles\MSF_BaseClasses.hpp"
     #include "vehicles\MSF_Units_BLUFOR.hpp"
     #include "vehicles\MSF_Units_OPFOR.hpp"
 };

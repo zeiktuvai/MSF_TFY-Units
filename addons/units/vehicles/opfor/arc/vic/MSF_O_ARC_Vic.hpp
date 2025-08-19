@@ -1,10 +1,3 @@
-class B_T_LSV_01_unarmed_F;
-class B_T_LSV_01_AT_F;
-class B_T_LSV_01_armed_F;
-class B_T_MRAP_01_F;
-class B_T_MRAP_01_gmg_F;
-class B_T_MRAP_01_hmg_F;
-
 class MSF_O_ARC_DAGOR : B_T_LSV_01_unarmed_F
 {
     crew = "MSF_O_ARC_Rifleman";

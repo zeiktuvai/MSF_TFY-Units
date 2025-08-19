@@ -1,4 +1,3 @@
-class B_Kitbag_rgr;
 #include "blufor\MSF_Soldier_Base.hpp"
 #include "blufor\MSF_Sniper_Base.hpp"
 #include "blufor\w\MSF_w_Soldier_Base.hpp"
@@ -72,3 +71,5 @@ class B_Kitbag_rgr;
 #include "blufor\sf\MSF_sf_Backpack.hpp"
 #include "blufor\sf\MSF_sf_Diver.hpp"
 #include "blufor\sf\MSF_sf_Diver_Exp.hpp"
+
+#include "blufor\w\vics\MSF_w_Cars.hpp"

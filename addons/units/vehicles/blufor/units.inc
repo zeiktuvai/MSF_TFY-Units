@@ -85,3 +85,4 @@
 "MSF_w_MineBackpack",
 "MSF_sf_BaseBackpack",
 "MSF_sf_ExpBackpack",
+"MSF_W_MRAP",

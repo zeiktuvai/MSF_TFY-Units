@@ -15,4 +15,7 @@ class CfgEditorSubcategories
     class MSF_EdSubcat_Inf_Spec {
         displayname = "Special Forces";
     };
+    class MSF_EdSubcat_Vic_Winter {
+        displayname = "Cars (Winter)";
+    };
 };
