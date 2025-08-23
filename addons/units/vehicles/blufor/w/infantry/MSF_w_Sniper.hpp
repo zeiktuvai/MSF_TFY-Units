@@ -10,8 +10,8 @@ class MSF_Sniper_W : MSF_Sniper
 	magazines[] = {
         "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
 		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
-		#include "../../base/Base_Mags.inc"
-		#include "../../base/Base_Mags_Hgun.inc"
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Mags.inc"
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Mags_Hgun.inc"
 	};
 	linkedItems[] = {
 		"MSF_NATO_W_TACVEST", "H_Shemag_olive_hs", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"
@@ -22,8 +22,8 @@ class MSF_Sniper_W : MSF_Sniper
 	respawnMagazines[] = {
         "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
 		"ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "ACE_10Rnd_338_API526_Mag", "30Rnd_9x21_Mag",
-		#include "../../base/Base_Mags.inc"
-		#include "../../base/Base_Mags_Hgun.inc"
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Mags.inc"
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Mags_Hgun.inc"
 	};
 	respawnLinkedItems[] = {
 		"MSF_NATO_W_TACVEST", "H_Shemag_olive_hs", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "ItemGPS", "JAS_GPNVG18_blk_TI"		

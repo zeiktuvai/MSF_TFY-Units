@@ -6,19 +6,19 @@ class MSF_Crewman_W :  MSF_Crewman
     model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
     #include "mx_carbine.inc"
     items[] = {
-		#include "../../base/Base_Items.inc"		
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Items.inc"		
     };
     linkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER1", "MSF_NATO_HelmetCrew_w", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
-        #include "../../base/Base_Linked.inc"
+        #include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"
     };	
 	RespawnItems[] = {
-		#include "../../base/Base_Items.inc"
+		#include "\z\msf\addons\units\u\vehicles\base\Base_Items.inc"
 		 "ACE_ATragMX", "ACE_RangeCard", "ACE_Banana", "ToolKit"
 	};
 	respawnLinkedItems[] = {
         "MSF_NATO_WINTER_V_PLATECARRIER1", "MSF_NATO_HelmetCrew_w", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",
-        #include "../../base/Base_Linked.inc"
+        #include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"
 	};
     uniformClass = "MSF_BLUFOR_Tanker_Alpine";
     backpack = "MSF_w_BaseBackpack";
