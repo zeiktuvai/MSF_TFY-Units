@@ -39,5 +39,5 @@ class MSF_W_HEMTT : B_Truck_01_mover_F
     displayName = "HEMTT";
     editorSubcategory = "MSF_EdSubcat_Vic_Winter";
     hiddenSelections[] = {"Camo1","Camo2","camo3"};
-    hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\cars\HEMTT_ext_01.paa","z\msf\addons\units\data\blufor\w\cars\HEMTT_ext_02.paa","\A3\Soft_F_Gamma\Truck_01\Data\truck_01_mprimer_CO.paa"};
+    hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\cars\HEMTT_ext_01.paa","z\msf\addons\units\data\blufor\w\cars\HEMTT_ext_02.paa","z\msf\addons\units\data\blufor\w\cars\HEMTT_mprimer.paa"};
 };
