@@ -6,6 +6,6 @@ class MSF_O_ARC_Medic :  MSF_O_ARC_Soldier_Base
 	scopeCurator = 2;
     attendant = 1;
     icon = "iconManMedic";
-    editorPreview = "z\msf\addons\units\data\ui\MSF_O_ARC_Soldier_F.jpg";
+    editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Medic.jpg";
     backpack = "MSF_O_ARC_MedicBackpack";
 };

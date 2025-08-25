@@ -6,7 +6,7 @@ class MSF_O_ARC_Leader : MSF_O_ARC_Soldier_Base
 	role = "MSFCommand";	
     scope = 2;
     scopeCurator = 2;
-    editorPreview = "z\msf\addons\units\data\ui\MSF_O_ARC_Soldier_F.jpg"; 
+    editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Leader.jpg";
     linkedItems[] = {
 		"ARC_Vest_Lite", "ARC_Helmet", "G_Combat", "ItemMap", "ItemCompass", "ACE_Altimeter", "ItemRadio", "ItemGPS"
 	};

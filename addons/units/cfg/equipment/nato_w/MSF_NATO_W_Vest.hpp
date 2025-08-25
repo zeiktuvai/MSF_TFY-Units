@@ -20,7 +20,7 @@ class MSF_NATO_W_PLATECARRIERGL : V_PlateCarrierGL_rgr
 	displayName="Carrier GL Rig (Alpine)";
 	model="\A3\Characters_F\BLUFOR\equip_b_carrier_gl_rig.p3d";
 	hiddenSelections[]=	{"Camo"};
-	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_BLUFOR_carrier_gl.paa"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\NATO_carrier_gl.paa"};
 };
 
 class MSF_NATO_W_CARRIER_GL : V_PlateCarrierSpec_rgr
@@ -29,7 +29,7 @@ class MSF_NATO_W_CARRIER_GL : V_PlateCarrierSpec_rgr
 	displayName="Carrier Special Rig (Alpine)";
 	model="\A3\Characters_F\BLUFOR\equip_b_carrier_spec_rig.p3d";
 	hiddenSelections[] = { "Camo" };
-	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_BLUFOR_carrier_gl.paa"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\NATO_carrier_gl.paa"};
 };
 
 class MSF_NATO_W_TACVEST : V_TacVest_oli

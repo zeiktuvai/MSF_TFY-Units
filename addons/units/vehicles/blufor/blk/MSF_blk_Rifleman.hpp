@@ -3,6 +3,7 @@ class MSF_Rifleman_N : MSF_Rifleman
     editorSubcategory = "MSF_EdSubcat_Inf_Night";
     hiddenSelections[] = {"Camo","Insignia"}; 
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\MSF_BLUFOR_Clothing_MCB.paa"};
+    editorPreview = "z\msf\addons\units\data\ui\icon\blufor\blk\men\MSF_Rifleman_N.jpg";
     weapons[] = {
         "MSF_MX_B",
         #include "../../base/Base_Weap_HgunBino.inc"

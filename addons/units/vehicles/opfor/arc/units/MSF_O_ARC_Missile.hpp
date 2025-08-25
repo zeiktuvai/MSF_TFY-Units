@@ -5,6 +5,7 @@ class MSF_O_ARC_ATRifleman : MSF_O_ARC_Soldier_Base
 	icon = "iconManAT";
     scope = 2;
     scopeCurator = 2;
+	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_AARifleman.jpg";
     weapons[] = {
         "MSF_ARC_SPAR", "Binocular", "launch_MRAWS_green_F", "Throw", "Put"
     };
@@ -33,6 +34,7 @@ class MSF_O_ARC_AARifleman : MSF_O_ARC_Soldier_Base
 	icon = "iconManAT";
     scope = 2;
     scopeCurator = 2;
+	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_ATRifleman.jpg";
     weapons[] = {
         "MSF_ARC_SPAR", "Binocular", "launch_I_Titan_F", "Throw", "Put"
     };
