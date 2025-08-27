@@ -73,3 +73,4 @@
 #include "blufor\sf\MSF_sf_Diver_Exp.hpp"
 
 #include "blufor\w\vics\MSF_w_Cars.hpp"
+#include "blufor\w\drones\MSF_w_Drones.hpp"

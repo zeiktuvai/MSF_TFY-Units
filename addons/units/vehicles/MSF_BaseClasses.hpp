@@ -17,5 +17,7 @@ class B_Truck_01_Repair_F;
 class B_LSV_01_unarmed_F;
 class B_LSV_01_armed_F;
 class B_LSV_01_AT_F;
+class B_UGV_01_F;
+class B_UGV_01_rcws_F;
 class B_Quadbike_01_F;
 class B_Kitbag_rgr;

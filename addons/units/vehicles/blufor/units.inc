@@ -101,3 +101,5 @@
 "MSF_W_LSV_armed",
 "MSF_W_LSV_AT",
 "MSF_W_Quadbike",
+"MSF_W_UGV",
+"MSF_W_UGV_rcws",
