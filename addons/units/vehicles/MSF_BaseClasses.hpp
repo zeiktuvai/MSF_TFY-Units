@@ -20,4 +20,6 @@ class B_LSV_01_AT_F;
 class B_UGV_01_F;
 class B_UGV_01_rcws_F;
 class B_Quadbike_01_F;
+class B_MBT_01_cannon_F;
+class B_MBT_01_TUSK_F;
 class B_Kitbag_rgr;

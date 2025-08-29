@@ -15,6 +15,7 @@
 "MSF_MXGL_White",
 "MSF_MXM_W",
 "MSF_MXSW_W",
+"MSF_MX_W",
 //ARC
 "MSF_ARC_SPAR",
 "MSF_ARC_SPAR_MG",

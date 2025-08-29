@@ -21,4 +21,7 @@ class CfgEditorSubcategories
     class MSF_EdSubcat_Drone_Winter {
         displayname = "Drones (Winter)";
     };
+    class MSF_EdSubcat_Armor_Winter {
+        displayname = "Tanks (Winter)";
+    };
 };

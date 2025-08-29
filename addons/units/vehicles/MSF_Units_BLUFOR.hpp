@@ -74,3 +74,4 @@
 
 #include "blufor\w\vics\MSF_w_Cars.hpp"
 #include "blufor\w\drones\MSF_w_Drones.hpp"
+#include "blufor\w\armor\MSF_w_Armor.hpp"

@@ -38,7 +38,7 @@
             #include "\z\msf\addons\units\u\vehicles\base\Base_Mags_MX.inc"
             #include "\z\msf\addons\units\u\vehicles\base\Base_Mags_Hgun.inc"
         };
-        RespawnItems[] = {
+        respawnItems[] = {
             #include "\z\msf\addons\units\u\vehicles\base\Base_Items.inc"
             #include "\z\msf\addons\units\u\vehicles\base\Items_No_BackPack.inc"
         };
