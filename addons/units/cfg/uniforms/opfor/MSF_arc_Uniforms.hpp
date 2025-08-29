@@ -3,7 +3,7 @@ class MSF_O_ARC_Uniform : Uniform_Base
     author="Zeik_Tuvai";
     scope = 2;
     displayName = "Combat Fatigues (ARC)";
-    picture = "\z\msf\addons\units\data\ui\icon_ARC_Uniform.paa";
+    picture = "\z\msf\addons\units\ui\icon_ARC_Uniform.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; 
     class ItemInfo : UniformItem { 
         uniformClass = "MSF_O_ARC_Rifleman"; 
@@ -16,7 +16,7 @@ class MSF_O_ARC_Recon : Uniform_Base
     author="Zeik_Tuvai";
     scope = 2;
     displayName = "Recon Fatigues (ARC)";
-    picture = "\z\msf\addons\units\data\ui\icon_ARC_Uniform.paa";
+    picture = "\z\msf\addons\units\ui\icon_ARC_Uniform.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; 
     class ItemInfo : UniformItem { 
         uniformClass = "MSF_O_ARC_Engineer"; 

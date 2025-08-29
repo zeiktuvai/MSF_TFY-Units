@@ -7,7 +7,7 @@
         engineer = 1;
        	role = "MSFCrew";	
 	    icon = "iconManEngineer";                
-        editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Crewman.jpg";
+        editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Crewman.jpg";
         model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
         hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Tank_crew.paa"};
         uniformClass = "MSF_O_ARC_Tank_Crew";

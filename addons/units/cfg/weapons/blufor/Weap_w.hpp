@@ -6,7 +6,7 @@ class MSF_MX_W : arifle_MX_Black_F
     baseWeapon = "MSF_MX_W";
     hiddenSelections[] = {"Camo1","Camo2"};
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\weapons\XMX_base_w.paa","z\msf\addons\units\data\blufor\w\weapons\XMX_short_w.paa"};
-	picture = "z\msf\addons\units\data\ui\icon\blufor\w\weapons\gear_mx_rifle_w.paa";
+	picture = "z\msf\addons\units\ui\icon\blufor\w\weapons\gear_mx_rifle_w.paa";
 };
 
 class MSF_MX_W_u : MSF_MX_W

@@ -5,5 +5,5 @@
         scope = 2;
         scopeCurator = 2;
         role = "MSFAssault";
-        editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Rifleman.jpg";
+        editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Rifleman.jpg";
     };

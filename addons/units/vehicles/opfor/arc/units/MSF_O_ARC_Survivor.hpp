@@ -5,7 +5,7 @@ class MSF_O_ARC_Survivor : MSF_O_ARC_Soldier_Base
     scope = 2;
     scopeCurator = 2;
 	role = "MSFAssault";
-	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Survivor.jpg";
+	editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Survivor.jpg";
 	weapons[] = {"Throw", "Put"};
 	magazines[] = {};
 	linkedItems[] = {};

@@ -5,7 +5,7 @@ class MSF_O_ARC_Grenadier : MSF_O_ARC_Soldier_Base
     scope = 2;
     scopeCurator = 2;
     role = "MSFAssault";
-	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Grenadier.jpg";
+	editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Grenadier.jpg";
 	weapons[] = {
         "MSF_ARC_SPAR_GL", "Binocular", "Throw", "Put"
     };

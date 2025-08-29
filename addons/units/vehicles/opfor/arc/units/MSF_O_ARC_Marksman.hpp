@@ -5,7 +5,7 @@ class MSF_O_ARC_Marksman : MSF_O_ARC_Soldier_Base
     scope = 2;
     scopeCurator = 2;
     role = "MSFRecon";
-	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Marksman.jpg";
+	editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Marksman.jpg";
 	weapons[] = {
         "MSF_ARC_DMR", "Binocular", "Throw", "Put"
     };

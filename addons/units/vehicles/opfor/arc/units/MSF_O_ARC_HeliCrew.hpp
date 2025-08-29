@@ -6,7 +6,7 @@
         scopeCurator = 2;
        	role = "MSFCrew";
 	    icon = "iconMan";
-        editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Helicrew.jpg";
+        editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Helicrew.jpg";
         model = "\A3\Characters_F\Common\coveralls.p3d";
         hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_Coveralls.paa"};
         uniformClass = "MSF_O_ARC_Coveralls";

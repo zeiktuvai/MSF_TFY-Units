@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.8.7]
+
+- Added winter:
+  - M-ATV
+  - HEMTT
+  - Polaris
+  - Quadbike
+  - Merkava
+- Added winter MX rifle.
+- Updated icons and editor previews.
+
 ## [1.8.6]
 
 - Added MSF Logistics terminal to Engineer and Mechanic classes

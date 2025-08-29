@@ -13,7 +13,7 @@ class MSF_O_ARC_Soldier_Base : O_soldier_F
 	model = "\A3\characters_f_beta\INDEP\ia_soldier_01.p3d"; 
 	hiddenSelections[] = {"Camo","Insignia"}; 
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\arc\MSF_O_ARC_clothing.paa"};
-	editorPreview = "z\msf\addons\units\data\ui\icon\opfor\arc\men\MSF_O_ARC_Rifleman.jpg";
+	editorPreview = "z\msf\addons\units\ui\icon\opfor\arc\men\MSF_O_ARC_Rifleman.jpg";
 	weapons[] = {
         "MSF_ARC_SPAR", "Binocular", "Throw", "Put"
     };
