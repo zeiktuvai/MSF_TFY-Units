@@ -1,6 +1,7 @@
 class MSF_Gunner_W :  MSF_Gunner
 {	
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Gunner_W.jpg";
 	#include "mx_lmg.inc"
     items[] = {
 		"ACE_Banana", "ACE_WaterBottle"        

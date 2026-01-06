@@ -8,6 +8,7 @@ class MSF_Engineer_W :  MSF_w_Soldier_Base
 	engineer = 1;
 	icon = "iconManEngineer";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Engineer_W.jpg";
 	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
  	#include "mx_std.inc"
     items[] = {

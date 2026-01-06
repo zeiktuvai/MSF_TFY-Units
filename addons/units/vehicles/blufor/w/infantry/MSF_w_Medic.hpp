@@ -1,6 +1,7 @@
 class MSF_Medic_W :  MSF_Medic
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Medic_W.jpg";
 	#include "mx_std.inc"
     items[] = {
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Items.inc"

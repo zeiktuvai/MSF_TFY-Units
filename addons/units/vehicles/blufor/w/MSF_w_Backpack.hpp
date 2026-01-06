@@ -6,6 +6,14 @@ class MSF_Alpine_Backpack : B_Kitbag_rgr
     hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\equipment\backpack_fast_alpine.paa"};
 };
 
+class MSF_UAV_01_Backpack_w : B_UAV_01_backpack_F
+{
+	scope = 2;
+    displayName = "UAV Bag Alpine (AR-2) [NATO]";
+    picture = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\Data\UI\icon_B_C_UAV_rgr_ca";
+    hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\equipment\UAV_06_NATO_w.paa"};
+};
+
 class MSF_w_BaseBackpack : MSF_Alpine_Backpack
 {
 	displayName = "Standard Kitbag (Alpine)";

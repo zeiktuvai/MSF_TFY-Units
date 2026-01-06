@@ -1,6 +1,7 @@
 class MSF_RTO_N : MSF_RTO
 {
     editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_RTO_N.jpg";
     weapons[] = {
         "MSF_MX_B",
         #include "../../base/Base_Weap_HgunBino.inc"

@@ -12,4 +12,5 @@ class MSF_Survivor_W :  MSF_w_Soldier_Base
 	respawnLinkedItems[] = {};
     uniformClass = "MSF_NATO_Uniform_Alpine";
     backpack = "";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Survivor_W.jpg";
 };

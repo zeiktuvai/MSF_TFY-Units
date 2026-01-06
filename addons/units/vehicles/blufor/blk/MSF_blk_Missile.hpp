@@ -1,6 +1,7 @@
 class MSF_ATRifleman_N :  MSF_ATRifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_ATRifleman_N.jpg";
     weapons[] = {
         "MSF_MX_B", "launch_MRAWS_green_F",
         #include "../../base/Base_Weap_HgunBino.inc"
@@ -32,6 +33,7 @@ class MSF_ATRifleman_N :  MSF_ATRifleman
 class MSF_AARifleman_N :  MSF_AARifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_AARifleman_N.jpg";
     weapons[] = {
         "MSF_MX_B", "launch_I_Titan_F",
         #include "../../base/Base_Weap_HgunBino.inc"

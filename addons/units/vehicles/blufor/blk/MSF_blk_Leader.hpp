@@ -1,6 +1,7 @@
 class MSF_Leader_N :  MSF_Leader
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_Leader_N.jpg";
     weapons[] = {
         "MSF_MXGL_B",
         #include "../../base/Base_Weap_HgunBino.inc"
