@@ -2,6 +2,7 @@ class MSF_UAV_W :  MSF_UAV
 {
 	displayName = "Drone Operator";
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_UAV_W.jpg";
     #include "mx_std.inc"
     items[] = {
         #include "\z\msf\addons\units\u\vehicles\base\Base_Items.inc"
@@ -20,5 +21,5 @@ class MSF_UAV_W :  MSF_UAV
 		"JAS_GPNVG18_blk_TI"
 	};
     uniformClass = "MSF_NATO_Uniform_Alpine";
-    backpack = "B_UAV_01_backpack_F";
+    backpack = "MSF_UAV_01_Backpack_w";
 };

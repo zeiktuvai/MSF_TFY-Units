@@ -23,3 +23,4 @@ class B_Quadbike_01_F;
 class B_MBT_01_cannon_F;
 class B_MBT_01_TUSK_F;
 class B_Kitbag_rgr;
+class B_UAV_01_backpack_F;

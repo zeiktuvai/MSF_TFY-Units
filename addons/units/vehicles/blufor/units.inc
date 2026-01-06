@@ -83,6 +83,7 @@
 "MSF_w_MedicBackpack",
 "MSF_w_EngBackpack",
 "MSF_w_MineBackpack",
+"MSF_UAV_01_Backpack_w",
 "MSF_sf_BaseBackpack",
 "MSF_sf_ExpBackpack",
 "MSF_W_MRAP",

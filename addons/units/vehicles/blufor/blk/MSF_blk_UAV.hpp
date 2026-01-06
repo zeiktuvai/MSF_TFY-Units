@@ -1,6 +1,7 @@
 class MSF_UAV_N :  MSF_UAV
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Night";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_UAV_N.jpg";
     weapons[] = {
         "MSF_MX_B",
         #include "../../base/Base_Weap_HgunBino.inc"
@@ -28,5 +29,5 @@ class MSF_UAV_N :  MSF_UAV
         #include "../../base/Base_Items_Night.inc"
 	};
     uniformClass = "MSF_BLUFOR_Clothing_MCB";
-    backpack = "B_UAV_01_backpack_F";
+    backpack = "MSF_UAV_01_Backpack_blk";
 };
