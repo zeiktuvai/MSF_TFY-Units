@@ -8,7 +8,7 @@ class CfgFunctions
 			class AddRadio {};
 			class AddSilencer {};
 			class ApplyInsignia {};
-			class SetInsigniaEH {};
+			//class SetInsigniaEH {};
 		};
     };
 };

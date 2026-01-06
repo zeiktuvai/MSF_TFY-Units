@@ -4,6 +4,7 @@ class MSF_Crewman_N :  MSF_Crewman
     hiddenSelections[] = {"Camo","Insignia"}; 
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\MSF_BLUFOR_Tanker_MCB.paa"};
     model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_Crewman_N.jpg";
     weapons[] = {
         "MSF_MXC_B",
         #include "../../base/Base_Weap_HgunBino.inc"

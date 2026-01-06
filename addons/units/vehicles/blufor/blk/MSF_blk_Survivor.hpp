@@ -1,6 +1,7 @@
 class MSF_Survivor_N : MSF_Rifleman_N
 {
 	displayName = "Survivor";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\blk\men\MSF_Survivor_N.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	items[] = {"ACE_Banana", "ACE_EarPlugs"};
