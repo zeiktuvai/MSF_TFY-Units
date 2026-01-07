@@ -16,6 +16,7 @@
 "MSF_MXM_W",
 "MSF_MXSW_W",
 "MSF_MX_W",
+"MSF_launch_B_Titan",
 //ARC
 "MSF_ARC_SPAR",
 "MSF_ARC_SPAR_MG",

@@ -1,5 +1,5 @@
 weapons[] = {
-    "MSF_MX_3GL",
+    "MSF_MXGL_White",
     #include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
 };
 magazines[] = {
@@ -12,7 +12,7 @@ magazines[] = {
     "1Rnd_HE_Grenade_shell", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203", "ACE_HuntIR_M203"
 };
 respawnWeapons[] = {
-    "MSF_MX_3GL",
+    "MSF_MXGL_White",
     #include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
 };
 respawnMagazines[] = {

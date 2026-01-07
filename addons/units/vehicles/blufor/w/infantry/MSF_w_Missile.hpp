@@ -43,7 +43,7 @@ class MSF_AARifleman_W :  MSF_AARifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MX_W", "launch_I_Titan_F",
+        "MSF_MX_W", "MSF_launch_B_Titan",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
     };
     magazines[] = {
@@ -60,7 +60,7 @@ class MSF_AARifleman_W :  MSF_AARifleman
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"
     };
 	respawnWeapons[] = {
-		"MSF_MX_W", "launch_I_Titan_F",
+		"MSF_MX_W", "MSF_launch_B_Titan",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {

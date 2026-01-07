@@ -11,7 +11,7 @@
         uniformClass = "MSF_BLUFOR_Coveralls_Alpine";
         backpack = "B_Parachute";
         weapons[] = {
-            "MSF_MXC",
+            "MSF_MXC_W",
 		    #include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
         };
         magazines[] = {
@@ -29,7 +29,7 @@
             #include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"
         };
         respawnWeapons[] = {
-		    "MSF_MXC",
+		    "MSF_MXC_W",
 		    #include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
 	    };
         respawnMagazines[] = {
