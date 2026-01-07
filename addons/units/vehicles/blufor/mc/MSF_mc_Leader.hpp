@@ -4,6 +4,7 @@ class MSF_Leader :  MSF_Soldier_Base
 	icon = "iconManLeader";
 	role = "MSFCommand";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Leader.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

@@ -3,6 +3,7 @@ class MSF_Marksman : MSF_Soldier_Base
 	displayName = "Designated Marksman";
 	role = "MSFRecon";
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Marksman.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

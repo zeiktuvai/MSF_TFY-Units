@@ -3,6 +3,7 @@ class MSF_RTO :  MSF_Soldier_Base
 	displayName = "Radio Operator (RTO)[TFAR]";
 	role = "MSFAssault";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_RTO.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

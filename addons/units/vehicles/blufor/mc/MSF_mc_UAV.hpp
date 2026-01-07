@@ -3,6 +3,7 @@ class MSF_UAV :  MSF_Soldier_Base
 	displayName = "Drone Operator";
 	role = "MSFRecon";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_UAV.jpg";
 	scope = 2;
 	scopeCurator = 2;
     uavHacker = 1;

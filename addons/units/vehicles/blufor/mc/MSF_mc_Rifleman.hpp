@@ -3,6 +3,7 @@ class MSF_Rifleman :  MSF_Soldier_Base
 	displayName = "Rifleman";
 	role = "MSFAssault";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Rifleman.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

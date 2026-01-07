@@ -3,6 +3,7 @@ class MSF_Medic :  MSF_Soldier_Base
 	displayName = "Combat Medic";
 	role = "MSFSupport";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Medic.jpg";
 	scope = 2;
 	scopeCurator = 2;
     attendant = 1;

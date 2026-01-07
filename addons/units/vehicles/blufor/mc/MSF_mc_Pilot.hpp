@@ -3,6 +3,7 @@ class MSF_Pilot :  MSF_Soldier_Base
 	displayName = "Pilot";
 	role = "MSFCrew";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Pilot.jpg";
 	icon = "iconManEngineer";
 	scope = 2;
 	scopeCurator = 2;

@@ -3,6 +3,7 @@ class MSF_Sniper : MSF_Sniper_Base
 	displayName = "Sniper";
 	role = "MSFRecon";
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Sniper.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

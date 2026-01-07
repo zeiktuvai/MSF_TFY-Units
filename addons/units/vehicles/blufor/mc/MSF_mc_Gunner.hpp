@@ -4,6 +4,7 @@ class MSF_Gunner :  MSF_Soldier_Base
 	icon = "iconManMG";
 	role = "MSFAssault";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Gunner.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

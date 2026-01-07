@@ -3,6 +3,7 @@ class MSF_Crewman :  MSF_Soldier_Base
 	displayName = "Vehicle Crewman";
 	role = "MSFCrew";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Crewman.jpg";
 	icon = "iconManEngineer";
 	scope = 2;
 	engineer = 1;

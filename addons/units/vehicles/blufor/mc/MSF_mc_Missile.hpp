@@ -4,6 +4,7 @@ class MSF_ATRifleman :  MSF_Soldier_Base
 	role = "MSFSpecial";
 	icon = "iconManAT";
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_ATRifleman.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
@@ -50,6 +51,7 @@ class MSF_AARifleman :  MSF_Soldier_Base
 	role = "MSFSpecial";
 	icon = "iconManAT";
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_AARifleman.jpg";
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {

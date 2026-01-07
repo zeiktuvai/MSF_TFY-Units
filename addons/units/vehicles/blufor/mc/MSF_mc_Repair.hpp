@@ -3,6 +3,7 @@ class MSF_Repair :  MSF_Soldier_Base
 	displayName = "Mechanic";
 	role = "MSFSupport";	
 	editorSubcategory = "MSF_EdSubcat_Inf";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\mc\men\MSF_Repair.jpg";
 	scope = 2;
 	scopeCurator = 2;	
 	engineer = 1;
