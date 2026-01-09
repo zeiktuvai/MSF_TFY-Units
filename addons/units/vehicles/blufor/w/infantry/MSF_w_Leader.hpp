@@ -1,6 +1,7 @@
 class MSF_Leader_W :  MSF_Leader
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Leader_W.jpg";
 	#include "mx_gren.inc"
     linkedItems[] = {
         "MSF_NATO_W_CARRIER_GL", "MSF_NATO_HelmetSpec_w", "MSF_Balaclava_TI_Alpine", "JAS_GPNVG18_blk_TI",		
