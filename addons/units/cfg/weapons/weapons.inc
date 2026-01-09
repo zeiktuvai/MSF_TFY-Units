@@ -10,11 +10,11 @@
 "MSF_MXM",
 //Winter
 "MSF_MAR10",
-"MSF_MMG_W",
+//"MSF_MMG_W",
 "MSF_MXC_W",
 "MSF_MXGL_White",
-"MSF_MXM_W",
-"MSF_MXSW_W",
+//"MSF_MXM_W",
+//"MSF_MXSW_W",
 "MSF_MX_W",
 "MSF_launch_B_Titan",
 //ARC

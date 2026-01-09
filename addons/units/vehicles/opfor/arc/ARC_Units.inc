@@ -24,7 +24,7 @@
 "MSF_O_ARC_HMG_01",
 "MSF_O_ARC_Mortar",
 //Cars
-"MSF_O_ARC_DAGOR_Green",
+"MSF_O_ARC_DAGOR",
 "MSF_O_ARC_DAGOR_AT",
 "MSF_O_ARC_DAGOR_Armed",
 "MSF_O_ARC_MRAP",
