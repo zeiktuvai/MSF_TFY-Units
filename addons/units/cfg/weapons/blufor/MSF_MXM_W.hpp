@@ -17,3 +17,6 @@ class MSF_MXM : arifle_MXM_F
 		};
 	};
 };
+
+//hiddenSelections[] = {"camo1"};
+//hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_long_Black_co.paa"};

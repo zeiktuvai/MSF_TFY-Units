@@ -1,4 +1,3 @@
-class LMG_03_F;
 class MSF_M249 : LMG_03_F
 {
 	scope = 1;

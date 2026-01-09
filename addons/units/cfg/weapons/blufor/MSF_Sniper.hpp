@@ -1,8 +1,5 @@
-class srifle_DMR_02_sniper_F;
-class MSF_MAR10 : srifle_DMR_02_sniper_F
+class MSF_Sniper : srifle_DMR_02_sniper_F
 {
-	scope = 1;
-	displayName = "MSF MAR-10";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";

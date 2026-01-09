@@ -7,7 +7,7 @@ class MSF_Sniper : MSF_Sniper_Base
 	scope = 2;
 	scopeCurator = 2;
 	weapons[] = {
-		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
+		"MSF_Sniper","Rangefinder","hgun_P07_F", "Throw", "Put"
 	};
 	magazines[] = {
         "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",
@@ -24,7 +24,7 @@ class MSF_Sniper : MSF_Sniper_Base
 		#include "../../base/Base_Linked.inc"
 	};
 	respawnWeapons[] = {
-		"MSF_MAR10","Rangefinder","hgun_P07_F", "Throw", "Put"
+		"MSF_Sniper","Rangefinder","hgun_P07_F", "Throw", "Put"
 	};
 	respawnMagazines[] = {
         "SmokeShellPurple", "ACE_10Rnd_338_300gr_HPBT_Mag", "ACE_10Rnd_338_300gr_HPBT_Mag",	"ACE_10Rnd_338_300gr_HPBT_Mag",

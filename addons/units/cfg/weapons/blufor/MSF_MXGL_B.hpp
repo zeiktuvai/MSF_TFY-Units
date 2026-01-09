@@ -1,4 +1,3 @@
-class arifle_MX_GL_Black_F;
 class MSF_MXGL_B : arifle_MX_GL_Black_F
 {
 	scope = 1;

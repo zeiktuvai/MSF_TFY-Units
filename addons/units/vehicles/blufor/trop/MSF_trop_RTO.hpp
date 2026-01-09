@@ -1,6 +1,7 @@
 class MSF_RTO_T :  MSF_RTO
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Trop";
+    #include "mx.inc"
     linkedItems[] = {
         "V_PlateCarrier2_tna_F", "H_HelmetB_Enh_tna_F", "JAS_GPNVG18_blk",
         #include "../../base/Base_Linked.inc"

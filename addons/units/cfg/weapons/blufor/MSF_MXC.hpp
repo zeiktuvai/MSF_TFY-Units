@@ -1,4 +1,3 @@
-class arifle_MXC_F;
 class MSF_MXC : arifle_MXC_F
 {
 	scope = 1;

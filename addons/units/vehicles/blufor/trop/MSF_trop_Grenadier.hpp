@@ -1,6 +1,7 @@
 class MSF_Grenadier_T :  MSF_Grenadier
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Trop";
+    #include "mxgl.inc"
     linkedItems[] = {
         "V_PlateCarrier2_tna_F", "H_HelmetB_Enh_tna_F", "G_Lowprofile", "JAS_GPNVG18_blk",
         #include "../../base/Base_Linked.inc"

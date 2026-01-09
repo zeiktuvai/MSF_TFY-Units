@@ -1,19 +1,17 @@
-class MSF_MXM : arifle_MXM_F
+class MSF_Sniper_T : srifle_DMR_02_camo_F
 {
-	scope = 1;
-	displayName = "MSF MXM";
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "optic_DMS";
+			item = "optic_KHS_blk";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
 			item = "ACE_DBAL_A3_Green";
 		};
-		class LinkedItemsUnder {
-			slot = "UnderBarrelSlot";
-			item = "bipod_01_F_snd";
+		class LinkedItemsMuzzle {
+			slot = "MuzzleSlot";
+			item = "muzzle_snds_338_green";
 		};
 	};
 };

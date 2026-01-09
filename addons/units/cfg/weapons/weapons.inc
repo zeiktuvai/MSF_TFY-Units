@@ -9,7 +9,7 @@
 "MSF_MXM_B",
 "MSF_MXM",
 //Winter
-"MSF_MAR10",
+"MSF_Sniper_W",
 //"MSF_MMG_W",
 "MSF_MXC_W",
 "MSF_MXGL_White",
@@ -17,6 +17,8 @@
 //"MSF_MXSW_W",
 "MSF_MX_W",
 "MSF_launch_B_Titan",
+//Tropic
+"MSF_MX_T",
 //ARC
 "MSF_ARC_SPAR",
 "MSF_ARC_SPAR_MG",
