@@ -2,12 +2,12 @@ class MSF_Sniper_W : MSF_Sniper
 {
 	scope = 2;
 	displayName = "Noreen ""Bad News"" ULR (White)";
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_tan_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_tan_CO.paa"};
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\weapons\Sniper_02.paa","z\msf\addons\units\data\blufor\w\weapons\Sniper_02_2.paa"};
 	hiddenSelections[] = {"Camo1","Camo2"};
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "optic_KHS_tan";
+			item = "optic_KHS_blk";
 		};
 		class LinkedItemsAcc {
 			slot = "PointerSlot";
@@ -15,7 +15,7 @@ class MSF_Sniper_W : MSF_Sniper
 		};
 		class LinkedItemsMuzzle {
 			slot = "MuzzleSlot";
-			item = "muzzle_snds_338_sand";
+			item = "muzzle_snds_338_black";
 		};
 	};
 };

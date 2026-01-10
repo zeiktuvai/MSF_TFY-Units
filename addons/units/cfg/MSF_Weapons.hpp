@@ -10,6 +10,8 @@ class LMG_03_F;
 class launch_B_Titan_F;
 class srifle_DMR_02_sniper_F;
 class srifle_DMR_02_camo_F;
+class arifle_MXM_khk_F;
+class launch_MRAWS_base_F;
 
 #include "weapons\blufor\MSF_M249.hpp"
 #include "weapons\blufor\MSF_Sniper.hpp"
@@ -20,6 +22,7 @@ class srifle_DMR_02_camo_F;
 #include "weapons\blufor\MSF_MXC.hpp"
 #include "weapons\blufor\MSF_MXC_T.hpp"
 #include "weapons\blufor\MSF_MXM.hpp"
+#include "weapons\blufor\MSF_MXM_W.hpp"
 #include "weapons\blufor\MSF_MX_3GL.hpp"
 #include "weapons\blufor\MSF_MXGL_B.hpp"
 #include "weapons\blufor\MSF_MXGL_T.hpp"
@@ -30,6 +33,7 @@ class srifle_DMR_02_camo_F;
 #include "weapons\blufor\MSF_MXC_W.hpp"
 #include "weapons\blufor\MSF_MXGL_W.hpp"
 #include "weapons\blufor\launcher\MSF_Launch_B_Titan.hpp"
+#include "weapons\blufor\launcher\MSF_MRAWS_W.hpp"
 
 #include "weapons\opfor\MSF_ARC_SPAR.hpp"
 #include "weapons\opfor\MSF_ARC_SPAR_MG.hpp"

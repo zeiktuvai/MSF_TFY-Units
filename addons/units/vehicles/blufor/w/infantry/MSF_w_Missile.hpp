@@ -2,7 +2,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
 	weapons[] = {
-        "MSF_MX_W", "launch_MRAWS_green_F",
+        "MSF_MX_W", "MSF_MRAWS_W",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
     };
     magazines[] = {
@@ -19,7 +19,7 @@ class MSF_ATRifleman_W :  MSF_ATRifleman
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"
     };
 	respawnWeapons[] = {
-		"MSF_MX_W", "launch_MRAWS_green_F",
+		"MSF_MX_W", "MSF_MRAWS_W",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"
 	};
 	respawnMagazines[] = {

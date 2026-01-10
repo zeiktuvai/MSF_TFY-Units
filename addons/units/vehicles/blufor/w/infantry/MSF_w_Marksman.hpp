@@ -4,6 +4,12 @@ class MSF_Marksman_W : MSF_Marksman
 	model = "A3\Characters_F\BLUFOR\b_sniper.p3d";
 	hiddenSelections[] = {"camo", "camo3"};
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Uniform_Alpine.paa", "z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Ghillie_Alp.paa"};
+	weapons[] = {
+		"MSF_MXM_W","Rangefinder","hgun_Pistol_heavy_01_F", "Throw", "Put"
+	};
+	respawnWeapons[] = {
+		"MSF_MXM_W","Rangefinder","hgun_Pistol_heavy_01_F", "Throw", "Put"
+	};
 	linkedItems[] = {
 		"MSF_NATO_W_CHESTRIG", "MSF_NATO_Helmet_w", "JAS_GPNVG18_blk_TI",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Linked.inc"

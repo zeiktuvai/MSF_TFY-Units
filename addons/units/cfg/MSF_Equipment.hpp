@@ -6,6 +6,7 @@ class V_PlateCarrierSpec_rgr;
 class V_TacVest_oli;
 class V_BandollierB_blk;
 class V_Chestrig_rgr;
+class V_EOD_olive_F;
 
 class H_HelmetSpecB;
 class H_HelmetB_light;

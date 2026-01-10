@@ -58,3 +58,11 @@ class MSF_NATO_W_CHESTRIG : V_Chestrig_rgr
 	hiddenSelections[] = {"Camo1", "Camo2" };
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_chestrig_Alpine.paa", "z\msf\addons\units\data\blufor\w\equipment\MSF_TacticalVest_Alpine.paa" };
 };
+
+class MSF_EOD_W : V_EOD_olive_F
+{
+	author = "Zeik_Tuvai";
+	displayName = "EOD Vest (White)";
+	hiddenSelections[] = {"Camo1", "Camo2" };
+	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\EOD_vest.paa","z\msf\addons\units\data\blufor\w\equipment\EOD_Ex.paa"};
+};

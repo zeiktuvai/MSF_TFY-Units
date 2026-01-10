@@ -1,22 +1,10 @@
-class MSF_MXM : arifle_MXM_F
+class MSF_MXM_W : arifle_MXM_khk_F
 {
-	scope = 1;
-	displayName = "MSF MXM";
-	class LinkedItems {
-		class LinkedItemsOptic {
-			slot = "CowsSlot";
-			item = "optic_DMS";
-		};
-		class LinkedItemsAcc {
-			slot = "PointerSlot";
-			item = "ACE_DBAL_A3_Green";
-		};
-		class LinkedItemsUnder {
-			slot = "UnderBarrelSlot";
-			item = "bipod_01_F_snd";
-		};
-	};
+	scope = 2;
+	displayName = "MXM (White)";
+    hiddenSelections[] = {"camo1"};
+    hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\weapons\XMX_Long.paa"};
+	#include "..\base\mxm.inc"
 };
 
-//hiddenSelections[] = {"camo1"};
-//hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_long_Black_co.paa"};
+
