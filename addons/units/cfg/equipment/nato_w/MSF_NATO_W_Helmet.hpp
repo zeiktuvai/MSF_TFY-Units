@@ -40,3 +40,10 @@ class MSF_NATO_Cap_w : H_MilCap_grn
     hiddenSelections[] = {"Camo"};
     hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_cappatrol_alp.paa"};
 };
+class MSF_NATO_HelmetB_TI_w : H_HelmetB_TI_tna_F
+{
+    displayName = "Stealth Combat Helmet (White)";
+    author = "Zeik_Tuvai";
+    hiddenSelections[] = {"Camo"};
+    hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\equipment\MSF_NATO_HelmetB_W.paa"};
+};

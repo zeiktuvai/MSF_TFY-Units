@@ -29,6 +29,7 @@ class launch_MRAWS_base_F;
 #include "weapons\blufor\MSF_MX_B.hpp"
 #include "weapons\blufor\MSF_MXC_B.hpp"
 #include "weapons\blufor\MSF_MXM_B.hpp"
+#include "weapons\blufor\MSF_MXM_T.hpp"
 #include "weapons\blufor\Weap_w.hpp"
 #include "weapons\blufor\MSF_MXC_W.hpp"
 #include "weapons\blufor\MSF_MXGL_W.hpp"
