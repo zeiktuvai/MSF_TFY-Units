@@ -1,6 +1,7 @@
 class MSF_UAV_T :  MSF_UAV
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Trop";
+    editorPreview = "z\msf\addons\units\ui\icon\blufor\trop\men\MSF_UAV_T.jpg";
     #include "mx.inc"
     linkedItems[] = {
         "V_PlateCarrier2_tna_F", "H_HelmetB_Enh_tna_F", "G_Lowprofile", "ItemMap", "ItemRadio", "ItemCompass", "ACE_Altimeter", "B_UavTerminal", 

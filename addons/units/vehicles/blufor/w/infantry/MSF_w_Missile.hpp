@@ -1,6 +1,7 @@
 class MSF_ATRifleman_W :  MSF_ATRifleman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_ATRifleman_W.jpg";
 	weapons[] = {
         "MSF_MX_W", "MSF_MRAWS_W",
 		#include "\z\msf\addons\units\u\vehicles\base\Base_Weap_HgunBino.inc"

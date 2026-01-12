@@ -1,6 +1,7 @@
 class MSF_Marksman_W : MSF_Marksman
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Marksman_W.jpg";
 	model = "A3\Characters_F\BLUFOR\b_sniper.p3d";
 	hiddenSelections[] = {"camo", "camo3"};
 	hiddenSelectionsTextures[] = {"z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Uniform_Alpine.paa", "z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Ghillie_Alp.paa"};

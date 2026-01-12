@@ -1,6 +1,7 @@
 class MSF_Sniper_W : MSF_Sniper
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Winter";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Sniper_W.jpg";
 	model = "\A3\Characters_F_Mark\BLUFOR\b_fullghillie_f.p3d";
 	hiddenSelectionsTextures[] = {"\z\msf\addons\units\data\blufor\w\uniform\MSF_NATO_Ghillie_Coverall_Alpine.paa","\z\msf\addons\units\data\blufor\w\uniform\MSF_ghillie_threads_alpine.paa","\z\msf\addons\units\data\blufor\w\uniform\MSF_ghillie_threads_5LOD_alpine.paa"};
 	hiddenSelections[] = {"camo","camo3","camo4"};

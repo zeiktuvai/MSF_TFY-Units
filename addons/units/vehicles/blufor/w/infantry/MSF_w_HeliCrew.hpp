@@ -7,7 +7,7 @@
        	role = "MSFCrew";
 	    icon = "iconMan";
         editorSubcategory = "MSF_EdSubcat_Inf_Winter";
-        //editorPreview = "z\msf\addons\units\data\ui\MSF_O_ARC_Soldier_F.jpg";
+        editorPreview = "z\msf\addons\units\ui\icon\blufor\w\men\MSF_Helicrew_w.jpg";
         uniformClass = "MSF_BLUFOR_Coveralls_Alpine";
         backpack = "B_Parachute";
         weapons[] = {

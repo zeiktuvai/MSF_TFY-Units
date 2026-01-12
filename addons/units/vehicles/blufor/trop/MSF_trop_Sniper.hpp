@@ -1,6 +1,7 @@
 class MSF_Sniper_T : MSF_Sniper
 {
 	editorSubcategory = "MSF_EdSubcat_Inf_Trop";
+	editorPreview = "z\msf\addons\units\ui\icon\blufor\trop\men\MSF_Sniper_T.jpg";
 	weapons[] = {
 		"MSF_Sniper_T","Rangefinder","hgun_P07_F", "Throw", "Put"
 	};
