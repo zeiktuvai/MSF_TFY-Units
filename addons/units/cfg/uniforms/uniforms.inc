@@ -9,6 +9,7 @@
 "MSF_BLUFOR_Tanker_MC",
 "MSF_BLUFOR_Clothing_MCB",
 "MSF_BLUFOR_Tanker_MCB",
+"MSF_NATO_Tanker_Trop",
 "MSF_O_ARC_Uniform",
 "MSF_O_ARC_Recon",
 "MSF_O_ARC_Tank_Crew",

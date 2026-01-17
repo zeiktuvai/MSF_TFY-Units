@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.8.8]
+
+- Added editor previews for all infantry units
+- Various equipment and weapon updates to better match unit look
+
 ## [1.8.7]
 
 - Added winter:

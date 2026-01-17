@@ -6,6 +6,7 @@ class MSF_SF_Diver_Exp :  MSF_Soldier_Base
 	scope = 2;
 	scopeCurator = 2;
 	canDeactivateMines = 1;
+	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_diver_F.jpg";
 	weapons[] = {
         "arifle_SDAR_F", "Binocular", "hgun_P07_snds_F", "Throw", "Put"
     };
